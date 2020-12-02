@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+   <!-- Step 1 - Include the fusioncharts core library -->
+   <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
+   <!-- Step 2 - Include the fusion theme -->
+   <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
+  <title>CoffeeDick Dashboard</title>
+</head>
+
+<body id="body">
+<!-- top bar -->
+  <nav class="navbar">
+    <ul>
+      <li>
+        <h1 id="CoffeeDickTitle">Coffee Dick</h1>
+      </li>
+      <div class="dropdown" style="float:right">
+        <button class="dropbtn">
+          <i class="fa fa-user-circle"></i>
+          John Doe
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Account</a>
+          <a href="#">Logout</a>
+        </div>
+      </div>
+    </ul>
+  </nav>
+
+  <!-- side bar -->
+  <div id="sidebar">
+    <div class="sidebar__menu">
+        <div class="sidebar__link">
+        <i class="fa fa-home"></i>
+        <a href="index.html">Overview</a>
+      </div>
+      <div class="sidebar__link">
+        <i class="fa fa-users"></i>
+        <a href="persona.html">Persona's</a>
+      </div>
+      <div class="sidebar__link">
+        <i class="fa fa-check"></i>
+        <a href="coffeefacts.html">Coffee Facts</a>
+      </div>
+      <div class="sidebar__link">
+        <i class="fa fa-photo"></i>
+        <a href="media.html">Media</a>
+      </div>
+      <hr>
+      <div class="sidebar__link active_menu_link">
+        <i class="fa fa-cog"></i>
+        <a href="accountsettings.html">Account Settings</a>
+      </div>
+    </div>
+  </div>
+  <!--<div id="chart-container">FusionCharts XT will load here!</div>-->
+ 
+
+<!-- scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

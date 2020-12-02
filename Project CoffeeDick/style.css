@@ -28,7 +28,7 @@
 body {
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
-  background: #3e261d;
+  background: #EAAD14;
 }
 
 .text-primary-p {
@@ -261,7 +261,7 @@ main {
 
 #sidebar {
   height: 100%;
-  background: #2b1a10;
+  background: #211000;
   grid-area: sidebar;
   overflow-y: auto;
   padding: 20px;
