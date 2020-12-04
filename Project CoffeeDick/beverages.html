@@ -11,53 +11,42 @@
    <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
    <!-- Step 2 - Include the fusion theme -->
    <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
+   <link rel="icon" href="favicon.png" type="image/png">
   <title>CoffeeDick Dashboard</title>
 </head>
 
 <body id="body">
 <!-- top bar -->
-  <nav class="navbar">
-    <ul>
-      <li>
-        <h1 id="CoffeeDickTitle">Coffee Dick</h1>
-      </li>
-      <div class="dropdown" style="float:right">
-        <button class="dropbtn">
-          <i class="fa fa-user-circle"></i>
-          John Doe
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="#">Account</a>
-          <a href="#">Logout</a>
-        </div>
-      </div>
-    </ul>
-  </nav>
+ <nav class="navbar">
+  <ul>
+    <li>
+     <div>
+      <h1 id="CoffeeDickTitle">Coffee Dick</h1>
+    </li>
+    <div class="dropdown" style="float:right">
+      <button class="dropbtn">
+        <i class="fa fa-user-circle"></i>
+        John Doe
+      </button>
+    </div>
+  </ul>
+</nav>
 
   <!-- side bar -->
   <div id="sidebar">
     <div class="sidebar__menu">
-        <div class="sidebar__link">
+      <div class="sidebar__link">
         <i class="fa fa-home"></i>
-        <a href="index.html">Overview</a>
+        <a href="index.html">Home</a>
       </div>
-      <div class="sidebar__link">
+      <div class="sidebar__link active_menu_link">
         <i class="fa fa-users"></i>
-        <a href="persona.html">Persona's</a>
-      </div>
-      <div class="sidebar__link">
-        <i class="fa fa-check"></i>
-        <a href="coffeefacts.html">Coffee Facts</a>
-      </div>
-      <div class="sidebar__link">
-        <i class="fa fa-photo"></i>
-        <a href="media.html">Media</a>
+        <a href="beverages.html">Beverages</a>
       </div>
       <hr>
-      <div class="sidebar__link active_menu_link">
+      <div class="sidebar__link">
         <i class="fa fa-cog"></i>
-        <a href="accountsettings.html">Account Settings</a>
+        <a href="settings.html">Settings</a>
       </div>
     </div>
   </div>
