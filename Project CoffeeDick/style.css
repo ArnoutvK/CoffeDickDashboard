@@ -7,12 +7,12 @@
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px #a5aaad;
+  box-shadow: inset 0 0 5px #744c1e;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #3ea175;
+  background: #774c24;
   border-radius: 10px;
 }
 
@@ -58,7 +58,7 @@ body {
 }
 
 .text-green {
-  color: #3b9668;
+  color: #515251;
 }
 
 .container {
@@ -75,7 +75,7 @@ body {
 
 
 main {
-  background: ##e4e4e4;
+  background: #e4e4e4;
   grid-area: main;
   overflow-y: auto;
 }
@@ -112,17 +112,18 @@ main {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 30px;
   margin: 20px 0;
+  margin-right: 2%;
+
 }
 
 .card {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 70px;
+  height: 150px;
   padding: 25px;
   border-radius: 5px;
-  background: #ffffff;
-  box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+  background: #ffffff;  
 }
 
 .card_inner {
@@ -140,13 +141,14 @@ main {
   grid-template-columns: 1fr 1fr;
   gap: 30px;
   margin-top: 50px;
+  margin-right: 2%;
 }
 
 .charts__left {
   padding: 25px;
   border-radius: 5px;
   background: #ffffff;
-  box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+  height: 300px;
 }
 
 .charts__left__title {
@@ -182,7 +184,6 @@ main {
   padding: 25px;
   border-radius: 5px;
   background: #ffffff;
-  box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
 }
 
 .charts__right__title {
@@ -221,54 +222,21 @@ main {
   margin-top: 30px;
 }
 
-.card1 {
-  background: #d1ecf1;
-  color: #35a4ba;
-  text-align: center;
-  padding: 25px;
-  border-radius: 5px;
-  font-size: 14px;
-}
 
-.card2 {
-  background: #d2f9ee;
-  color: #38e1b0;
-  text-align: center;
-  padding: 25px;
-  border-radius: 5px;
-  font-size: 14px;
-}
-
-.card3 {
-  background: #d6d8d9;
-  color: #3a3e41;
-  text-align: center;
-  padding: 25px;
-  border-radius: 5px;
-  font-size: 14px;
-}
-
-.card4 {
-  background: #fddcdf;
-  color: #f65a6f;
-  text-align: center;
-  padding: 25px;
-  border-radius: 5px;
-  font-size: 14px;
-}
 
 /*  SIDEBAR STARTS HERE  */
 
 #sidebar {
   height: 100%;
-  background: #5a5858;
+  background-image: url(frame2.png);
+  background-repeat: no-repeat;
   grid-area: sidebar;
-  overflow-y: hidden;
+  overflow-y: auto;
   padding: 40px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  position:auto;
-  
+  margin-left: -3%;
+  position: auto;
 }
 
 
@@ -292,24 +260,25 @@ main {
   display: none;
 }
 
-.sidebar__menu > h2 {
+.sidebar__menu {
   color: #3ea175;
   font-size: 16px;
-  margin-top: 15px;
+  margin-top: 140%;
   margin-bottom: 5px;
-  padding: 0 10px;
+  padding: 10px 10px;
+  padding-right: 33px;
   font-weight: 700;
 }
 
 .sidebar__link {
   color: #f3f4f6;
-  padding: 10px;
+  padding: 10px 10px;
   border-radius: 3px;
   margin-bottom: 5px;
-}
+} 
 
 .active_menu_link {
-  background: #EAAD14;
+  background: #fdbd33;
   color: #6f3d22;
 }
 
@@ -400,8 +369,8 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #5a5858;
+  overflow: auto;
+  background-color: #fdbd33;
   z-index: -1;
 }
 
@@ -429,7 +398,7 @@ li a:hover:not(.active) {
   font-weight: 700;
   margin-bottom: 15px;
   margin-top: 15px;
-  margin-left: 90px;
+  margin-left: 80px;
 }
 
 /* The dropdown container */

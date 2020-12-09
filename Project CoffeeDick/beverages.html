@@ -11,45 +11,143 @@
    <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
    <!-- Step 2 - Include the fusion theme -->
    <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
-   <link rel="icon" href="favicon.png" type="image/png">
   <title>CoffeeDick Dashboard</title>
 </head>
 
 <body id="body">
 <!-- top bar -->
- <nav class="navbar">
-  <ul>
-    <li>
-     <div>
-      <h1 id="CoffeeDickTitle">Coffee Dick</h1>
-    </li>
-    <div class="dropdown" style="float:right">
-      <button class="dropbtn">
-        <i class="fa fa-user-circle"></i>
-        John Doe
-      </button>
-    </div>
-  </ul>
-</nav>
-
-  <!-- side bar -->
-  <div id="sidebar">
+  <nav class="navbar">
+    <ul>
+      <li>
+        <h1 id="CoffeeDickTitle">Coffee Dick</h1>
+      </li>
+      <div class="dropdown" style="float:right">
+        <button class="dropbtn">
+          <i class="fa fa-user-circle"></i>
+          John Doe
+        </button>
+      </div>
+    </ul>
+  </nav>
+   <!-- side bar -->
+   <div class="container">
+   <div id="sidebar">
     <div class="sidebar__menu">
       <div class="sidebar__link">
         <i class="fa fa-home"></i>
         <a href="index.html">Home</a>
       </div>
-      <div class="sidebar__link active_menu_link">
+      <div class="sidebar__link">
         <i class="fa fa-users"></i>
-        <a href="beverages.html">Beverages</a>
+        <a href="statistics.html">Statistics</a>
       </div>
-      <hr>
       <div class="sidebar__link">
         <i class="fa fa-cog"></i>
         <a href="settings.html">Settings</a>
       </div>
+      <hr>
+        <i class=""></i>
+        <a>Customize</a>
+      </div>
+      <div class="sidebar__link">
+        <i class="fa fa-users"></i>
+        <a href="personas.html">Personas</a>
+      </div>
+      <div class="sidebar__link active_menu_link">
+        <i class="fa fa-cog"></i>
+        <a href="beverages.html">Beverages</a>
+      </div>
+    </div>
+  <main>
+  <!-- MAIN CARDS STARTS HERE -->
+  <div class="main__cards">
+    <div class="card">
+      <i
+        
+        aria-hidden="true"
+      ></i>
+      <div class="card_inner">
+        <p class="text-primary-p">Drankies</p>
+        <span class="font-bold text-title">578</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <i aria-hidden = "true"></i>
+      <div class="card_inner">
+        <p class="text-primary-p">Times of Watching</p>
+        <span class="font-bold text-title">2467</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <i
+        aria-hidden="true"
+      ></i>
+      <div class="card_inner">
+        <p class="text-primary-p">Number of drinkjes</p>
+        <span class="font-bold text-title">340</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <i
+        aria-hidden="true"
+      ></i>
+      <div class="card_inner">
+        <p class="text-primary-p">Number of Likes</p>
+        <span class="font-bold text-title">645</span>
+      </div>
     </div>
   </div>
+  <!-- CHARTS STARTS HERE -->
+          <div class="charts">
+            <div class="charts__left">
+              <div class="charts__left__title">
+                <div>
+                  <h1>Koffie yum</h1>
+                  <p> Wordt je nou ook zo gepest door die gemene Nick, bel dan de kindertelefoon op: 0800 0432</p>
+                </div>
+                
+              </div>
+              <div id="apex1"></div>
+            </div>
+
+            <div class="charts__right">
+              <div class="charts__right__title">
+                <div>
+                  <h1>Cappuchino maby</h1>
+                  <p>Ook yumyumyumyum</p>
+                </div>
+              </div>
+
+              <div class="charts__right__cards">
+                <div class="card1">
+                  <h1></h1>
+                  <p></p>
+                </div>
+
+                <div class="card2">
+                  <h1></h1>
+                  <p></p>
+                </div>
+
+                <div class="card3">
+                  <h1></h1>
+                  <p></p>
+                </div>
+
+                <div class="card4">
+                  <h1></h1>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- CHARTS ENDS HERE -->
+        </div>
+      </main>
+  
   <!--<div id="chart-container">FusionCharts XT will load here!</div>-->
  
 
