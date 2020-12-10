@@ -294,6 +294,7 @@ color: white;
 font-weight: 900;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 /*
 #CoffeeDickTitle{
   position: absolute;
@@ -329,32 +330,34 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 700;
 }
 
+
 .sidebar__link a:hover{
   color: #6E47D0;
 }
 
-.sidebar__link > i {
-  margin-right: 10px;
-  font-size: 18px;
-}
-
 .sidebar__logout {
-  margin-top: 20px;
-  padding: 10px;
-  color: #e65061;
-}
+    color: grey; 
+    font-weight: 900;
+    margin-top: 25%;
+    margin-bottom: 5%;
+    margin-left: 2px; 
+    }
 
 .sidebar__logout > a {
-  text-decoration: none;
-  color: #e65061;
-  font-weight: 700;
-  text-transform: uppercase;
-}
+  color: grey; 
+  font-weight: 900;
+  margin-top: 12%;
+  margin-bottom: 5%;
+  margin-left: 8.5px; 
+  }
 
 .sidebar__logout > i {
-  margin-right: 10px;
-  font-size: 18px;
-}
+  color: grey; 
+  font-weight: 900;
+  margin-top: 12%;
+  margin-bottom: 5%;
+  margin-left: 8.5px; 
+  }
 
 .sidebar_responsive {
   display: inline !important;
