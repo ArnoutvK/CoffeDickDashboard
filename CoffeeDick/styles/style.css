@@ -1,3 +1,32 @@
 body {
-    background-color: white;
+background-color: #ebecf1 !important;
+overflow: hidden;
 }
+
+#witblok{
+background-color: #fff;
+border-bottom-color: #D09F47;
+}
+
+#paarsblok{
+    background-color: #6e4cd0;
+}
+
+#wittetekst{
+    color: #fff;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 100vh }
+
+/* Set gray background color and 100% height */
+.sidenav {
+background-color: #ffffff ;
+height: 100%;
+}
+
+/* On small screens, set height to 'auto' for the grid */
+@media screen and (max-width: 767px) {
+.row.content {
+height: 100vh;
+}}
