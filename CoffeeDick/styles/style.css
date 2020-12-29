@@ -113,7 +113,7 @@ body {
     
     /* Set background image color and 100% height */
     .sidenav {
-    background-image: url('../Images/Frame2a.png');
+    background-image: url('../imgs/Frame2a.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
