@@ -1,28 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Coffee Dick</title>
+    <title>Beverages | CoffeeDick Dashboard</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/bs-style.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-    <style>
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 100vh}
-    /* Set gray background color and 100% height */
-    .sidenav {
-    background-color: #EBECF1;
-    height: 100%;
-    }
-    /* On small screens, set height to 'auto' for the grid */
-    @media screen and (max-width: 767px) {
-    .row.content {height: auto;}
-    }
-    </style>
 </head>
 <body>
+
+    <!--Mobiele navbar-->
+    <nav class="navbar navbar-inverse visible-xs">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                    
+                </button>
+                <a class="navbar-brand" href="index.html">CoffeeDick</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="statistics.html">Statistics</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="beverages.html">Beverages</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+  <!--Web navbar -->
+    <div class="container-fluid">
+        <div class="row content">
+            <div class="col-sm-2 sidenav hidden-xs">
+            <h2 class="name">CoffeeDick</h2>
+                <div class="whitebg">
+                    <object type="image/svg+xml" data="imgs/sidebarCoffee.svg"></object>
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="statistics.html">Statistics</a></li>
+                        <hr id="sidebarstreep">
+                        <h3>Customize</h3>
+                        <li><a href="bots.html">Bots</a></li>
+                        <li><a href="beverages.html">Beverages</a></li>
+                    </ul><br>
+                </div>
+            </div>
+            
+            <br>
+
+    <!--Row 1-->
+
+    <div class="col-sm-10">
+        <div>
+            <h3>Customize Beverages</h3>
+            <p>On this page you can edit all the beverages there are to choose from.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-2">
+                <div class="well">
+                    <object height="56%" type="image/svg+xml" data="imgs/bvrgs/beverageRegular.svg"></object>
+                    <h4>Regular Coffee</h4>
+                    <a><h5>Click to edit</h5></a><a><h5>Delete</h5></a>
+                </div>
+            </div>
+
+            <div class="col-sm-2">
+                <div class="well">
+                    <object height="56%" type="image/svg+xml" data="imgs/bvrgs/beverageCappuccino.svg"></object>
+                    <h4>Cappuccino</h4>
+                    <a><h5>Click to edit</h5></a><a><h5>Delete</h5></a>
+                </div>
+            </div>
+
+            <div class="col-sm-2">
+                <div class="well">
+                    <object height="56%" type="image/svg+xml" data="imgs/bvrgs/beverageLatte.svg"></object>
+                    <h4>Latte</h4>
+                    <a><h5>Click to edit</h5></a><a><h5>Delete</h5></a>
+                </div>
+            </div>
+
+            <div class="col-sm-2">
+                <div class="well">
+                    <object height="56%" type="image/svg+xml" data="imgs/bvrgs/beverageTea.svg"></object>
+                    <h4>Tea &#183; 5 options</h4>
+                    <a><h5>Click to edit</h5></a><a><h5>Delete</h5></a>
+                </div>
+            </div>
+
+            <div class="col-sm-2">
+                <div class="well">
+                    <object height="56%" type="image/svg+xml" data="imgs/bvrgs/beverageChocolate.svg"></object>
+                    <h4>Hot Chocolate</h4>
+                    <a><h5>Click to edit</h5></a><a><h5>Delete</h5></a>
+                </div>
+            </div>
+            
+            <div class="col-sm-2">
+                <div class="well">
+                    <object height="56%" type="image/svg+xml" data="imgs/bvrgs/beverageBeer.svg"></object>
+                    <h4>Beer</h4>
+                    <a><h5>Click to edit</h5></a><a><h5>Delete</h5></a>
+                </div>
+            </div>
+        </div>
+
+    <!--Row 2-->
+
+        <div class="row">
+            <div class="col-sm-2">
+                <div class="well">
+                    <object height="56%" type="image/svg+xml" data="imgs/bvrgs/beverageTripel.svg"></object>
+                    <h4>Tripel</h4>
+                    <a><h5>Click to edit</h5></a><a><h5>Delete</h5></a>
+                </div>
+            </div>
+
+            
+            <div class="col-sm-2">
+                <div class="well">
+                    <object height="56%" type="image/svg+xml" data="imgs/bvrgs/beverageTripel.svg"></object>
+                    <h4>Tripel</h4>
+                    <a><h5>Click to edit</h5></a><a><h5>Delete</h5></a>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="well">
+                    <object height="56%" type="image/svg+xml" data="imgs/bvrgs/beverageTripel.svg"></object>
+                    <h4>Tripel</h4>
+                    <a><h5>Click to edit</h5></a><a><h5>Delete</h5></a>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="well">
+                    <object height="56%" type="image/svg+xml" data="imgs/bvrgs/beverageTripel.svg"></object>
+                    <h4>Tripel</h4>
+                    <a><h5>Click to edit</h5></a><a><h5>Delete</h5></a>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="well">
+                    <object height="56%" type="image/svg+xml" data="imgs/bvrgs/beverageTripel.svg"></object>
+                    <h4>Tripel</h4>
+                    <a><h5>Click to edit</h5></a><a><h5>Delete</h5></a>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="well">
+                    <object height="56%" type="image/svg+xml" data="imgs/bvrgs/beverageTripel.svg"></object>
+                    <h4>Tripel</h4>
+                    <a><h5>Click to edit</h5></a><a><h5>Delete</h5></a>
+                </div>
+            </div>
+
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="well">
+                    <p>Text</p>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="well">
+                    <p>Text</p>
+                </div>
+            </div>
+        </div>
+
+
+    <!--
 
     <nav class="navbar navbar-inverse visible-xs">
         <div class="container-fluid">
@@ -34,6 +187,7 @@
                 </button>
                 <a class="navbar-brand" href="#">Coffee Dick</a>
             </div>
+
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Dashboard</a></li>
@@ -50,17 +204,20 @@
     <div class="container-fluid">
         <div class="row content">
             <div class="col-sm-2 sidenav hidden-xs">
-            <h2>Coffee Dick</h2>
-            <object type="image/svg+xml" data="imgs/sidebarCoffee.svg"></object>
-            <ul class="nav nav-pills nav-stacked">
-                <li class="active"><a href="#section1">Dashboard</a></li>
-                <li><a href="#section2">Home</a></li>
-                <li><a href="#section3">Statistics</a></li>
-                <h4>Customize</h4>
-                <li><a href="#section3">Bots</a></li>
-                <li><a class="currentPage"href="#">Beverages</a></li>
-            </ul><br>
+                <h2>Coffee Dick</h2>
+                <object type="image/svg+xml" data="imgs/sidebarCoffee.svg"></object>
+                <ul class="nav nav-pills nav-stacked">
+                    <li class="active"><a href="#section1">Dashboard</a></li>
+                    <li><a href="#section2">Home</a></li>
+                    <li><a href="#section3">Statistics</a></li>
+                    <h4>Customize</h4>
+                    <li><a href="#section3">Bots</a></li>
+                    <li><a class="currentPage"href="#">Beverages</a></li>
+                </ul><br>
+            </div>
         </div>
+    </div>
+    
     <br>
 
     <div class="col-sm-10">
@@ -157,6 +314,6 @@
                 </div>
             </div>
         </div>
-
+    -->
 </body>
 </html>

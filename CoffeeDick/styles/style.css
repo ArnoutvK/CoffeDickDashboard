@@ -1,7 +1,33 @@
+/* Set background color to a color */
 body {
-background-color: #ebecf1 !important;
-overflow: hidden;
+    background-color: #eee !important;
+    }
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+    height: 100vh
 }
+
+/* Set row height for all elements in the row */
+.row {
+    height: fit-content;
+}
+
+.col {
+    height: 100
+}
+
+/* Set white background color and 100% height */
+.sidenav {
+background-color: #D09F47;
+height: 100%;
+}
+
+/* On small screens, set height to 'auto' for the grid */
+@media screen and (max-width: 767px) {
+.row.content {
+height: 100vh;
+}}
 
 #witblok{
 background-color: #fff;
@@ -16,20 +42,3 @@ border-bottom-color: #D09F47;
     color: #fff;
 }
 
-/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-.row.content {height: 100vh }
-
-/* Set gray background color and 100% height */
-.sidenav {
-background-color: #ffffff ;
-background-image: url('../Images/Frame1a.png');
-background-repeat: no-repeat;
-background-size: cover;
-height: 100%;
-}
-
-/* On small screens, set height to 'auto' for the grid */
-@media screen and (max-width: 767px) {
-.row.content {
-height: 100vh;
-}}
