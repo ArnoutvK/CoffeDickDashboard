@@ -37,16 +37,16 @@ height: 100%;
 display:block;
 background-color: #fff;
 border-bottom-color: #D09F47;
-border-bottom-width: 6px;
+border-bottom-width: 5px;
 height: 250px;
 border-radius: 20px;
 }
     
-#paarsblok{
+#geelblok{
 display:block;
-background-color: #6e4cd0;
-border-bottom-color: #58178d;
-border-bottom-width: 6px;
+background-color: #D09F47;
+border-bottom-color: #a77f34;
+border-bottom-width: 5px;
 height: 250px;
 border-radius: 20px;
 }
