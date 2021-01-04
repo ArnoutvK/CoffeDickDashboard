@@ -23,6 +23,40 @@ body {
     height: 100
 }
 
+.pageheader {
+    display: inline-block;
+}
+
+.pageheader.txt {
+    display: inline-block;
+}
+
+.pageheader.balloon {
+    position: absolute;
+    display: inline-block;
+    right: 3%;
+}
+
+.element {
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 7.5px 10px;
+    background-color: #fff;
+    border-radius: 60px;
+    border-bottom: 5px solid #D09F47 ;
+}
+
+.balloontxt {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.balloontxt>a{
+    font-weight: bold;
+}
+
 /* Set white background color and 100% height */
 .sidenav {
 text-align: center;
