@@ -147,10 +147,14 @@ h3 {
     margin-top: 0 !important;
 }
 
-
 #O1  {
     display: block;
     text-align: center;
     margin: auto;
     margin-top: 35vh;
   }
+
+.bgbeverage {
+    filter: drop-shadow( 0px 0px 3px rgba(110, 76, 208, 1));
+}
+
