@@ -171,6 +171,8 @@ font-weight: 900;
 .name {
     color: white;
     text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
 }
 
 h3 {
