@@ -3,6 +3,7 @@ body {
     background-color: #eee !important;
     }
 
+
 body {
     background-color: #ebecf1 !important;
     overflow: hidden;
@@ -36,7 +37,7 @@ body {
     right: 3%;
 }
 
-.element {
+.pageheaderballoon {
     height: 50px;
     display: inline-block;
     vertical-align: middle;
@@ -46,12 +47,8 @@ body {
     border-bottom: 5px solid #D09F47 ;
 }
 
-.hoverelement {
+.balloonelement:hover + .hoverelement {
     display: none;
-}
-
-.pageheaderballoon:hover + .hoverelement {
-    display: inline-block;
 }
 
 .balloontxt {
