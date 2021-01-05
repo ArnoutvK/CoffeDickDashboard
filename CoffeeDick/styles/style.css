@@ -23,10 +23,6 @@ body {
     height: 100
 }
 
-.pageheader {
-    display: inline-block;
-}
-
 .pageheadertxt {
     display: inline-block;
 }
@@ -34,31 +30,39 @@ body {
 .pageheaderballoon {
     position: absolute;
     display: inline-block;
+    width: 50px;
     right: 3%;
-}
-
-.pageheaderballoon {
-    height: 50px;
-    display: inline-block;
-    vertical-align: middle;
-    padding: 7.5px 10px;
-    background-color: #fff;
-    border-radius: 60px;
-    border-bottom: 5px solid #D09F47 ;
-}
-
-.balloonelement:hover + .hoverelement {
-    display: none;
+    width: max-content;
+    transition: all 0.4s linear;
 }
 
 .balloontxt {
-    display: inline-block;
+    display: none;
     margin-left: 10px;
     margin-right: 10px;
 }
 
+.pageheaderballoon:hover .balloontxt {
+    display: inline-block;
+    width: fit-content;
+}
+
+.balloonelement {
+    height: 50px;
+    vertical-align: middle;
+    padding: 7.5px 10px;
+    background-color: #fff;
+    border-radius: 60px;
+    border-bottom: 5px solid #D09F47;
+}
+
 .balloontxt>a{
-    font-weight: bold;
+    font-weight: bold !important;
+}
+
+.balloontxt>a:hover {
+    color: #6e4cd0 !important;
+    text-decoration: none;
 }
 
 /* Set white background color and 100% height */
