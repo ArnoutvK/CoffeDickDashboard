@@ -3,7 +3,6 @@ body {
     background-color: #eee !important;
     }
 
-
 body {
     background-color: #ebecf1 !important;
     overflow: hidden;
@@ -27,11 +26,11 @@ body {
     display: inline-block;
 }
 
-.pageheader.txt {
+.pageheadertxt {
     display: inline-block;
 }
 
-.pageheader.balloon {
+.pageheaderballoon {
     position: absolute;
     display: inline-block;
     right: 3%;
@@ -45,6 +44,14 @@ body {
     background-color: #fff;
     border-radius: 60px;
     border-bottom: 5px solid #D09F47 ;
+}
+
+.hoverelement {
+    display: none;
+}
+
+.pageheaderballoon:hover + .hoverelement {
+    display: inline-block;
 }
 
 .balloontxt {
