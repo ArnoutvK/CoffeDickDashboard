@@ -201,3 +201,8 @@ h3 {
     margin-top: 35vh;
     margin-right: 7px;
 }
+
+#chartContainer {
+    height: 100%; 
+    width: 100%;
+}
