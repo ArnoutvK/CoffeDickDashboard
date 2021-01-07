@@ -1,11 +1,17 @@
+@font-face {
+    font-family: "Rubik";
+    src: url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+}
+
+@font-face {
+    font-family: "Karla";
+    src: url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+}
+
 /* Set background color to a color */
 body {
     background-color: #eee !important;
-    }
-
-
-body {
-    background-color: #ebecf1 !important;
+    font-family: "Rubik", "Karla", sans-serif;
     overflow: hidden;
 }
 
@@ -71,13 +77,14 @@ body {
 
 /* Set white background color and 100% height */
 .sidenav {
-text-align: center;
-background-color: #D09F47;
-height: 100%;
-background-image: url('../imgs/Frame1a.svg');
-background-repeat: no-repeat;
-background-size: cover;
-height: 100%;
+    font-family: "Karla";
+    text-align: center;
+    background-color: #D09F47;
+    height: 100%;
+    background-image: url('../imgs/Frame1a.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
     
 #witblok{
@@ -107,8 +114,8 @@ height: 100%;
     border-radius: 20px;
 }
 
-#bvrgs {
-    display:block;
+#bvrgs, #bot {
+    display: block;
     background-color: #fff;
     border-bottom-color: #D09F47;
     border-bottom-width: 5px;
@@ -130,11 +137,43 @@ height: 100%;
 .bvrgstitle {
     margin-bottom: 0;
 }
-.editicon {
+
+.editbvrg, .editbot {
     position: absolute;
-    top: 10px;
-    right: 25px;
+    top: 15px;
+    right: 30px;
     height: 12%;
+}
+
+.bot1 {
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(110, 76, 208, 0.80)), url('../imgs/gunther.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bot2 {
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(110, 76, 208, 0.80)), url('../imgs/brewbacca.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.bot3 {
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(110, 76, 208, 0.80)), url('../imgs/babyYoda.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bottitle {
+    padding-top: 90%;
+    color: white;
+    margin: 0;
 }
     
 #h1 {
@@ -193,3 +232,5 @@ h3 {
     height: 100%; 
     width: 100%;
 }
+
+
