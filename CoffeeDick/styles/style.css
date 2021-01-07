@@ -7,7 +7,7 @@ body {
 body {
     background-color: #ebecf1 !important;
     overflow: hidden;
-    }
+}
 
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
 .row.content {
@@ -30,30 +30,34 @@ body {
 .pageheaderballoon {
     position: absolute;
     display: inline-block;
+    height: 50px;
+    vertical-align: middle;
+    padding: 7px 10px;
+    background-color: #fff;
+    border-radius: 60px;
+    border-bottom: 5px solid #D09F47;
     width: 50px;
     right: 3%;
-    width: max-content;
-    transition: all 0.4s linear;
+    transition: 0.3s linear;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.balloonimg {
+    display: inline-block;
 }
 
 .balloontxt {
     display: none;
     margin-left: 10px;
-    margin-right: 10px;
 }
 
 .pageheaderballoon:hover .balloontxt {
     display: inline-block;
-    width: fit-content;
 }
 
-.balloonelement {
-    height: 50px;
-    vertical-align: middle;
-    padding: 7.5px 10px;
-    background-color: #fff;
-    border-radius: 60px;
-    border-bottom: 5px solid #D09F47;
+.pageheaderballoon:hover {
+    width:225px;
 }
 
 .balloontxt>a{
@@ -77,37 +81,10 @@ height: 100%;
 }
     
 #witblok{
-display:block;
-background-color: #fff;
-border-bottom-color: #D09F47;
-border-bottom-width: 5px;
-height: 250px;
-border-radius: 20px;
-}
-    
-#geelblok{
-display:block;
-background-color: #D09F47;
-border-bottom-color: #a77f34;
-border-bottom-width: 5px;
-height: 250px;
-border-radius: 20px;
-}
-    
-#wittetekst{
-color: #fff;
-}
-
-body {
-    background-color: #ebecf1 !important;
-    overflow: hidden;
-}
-    
-#witblok {
     display:block;
     background-color: #fff;
     border-bottom-color: #D09F47;
-    border-bottom-width: 6px;
+    border-bottom-width: 5px;
     height: 250px;
     border-radius: 20px;
 }
@@ -121,8 +98,43 @@ body {
     border-radius: 20px;
 }
     
+#geelblok{
+    display:block;
+    background-color: #D09F47;
+    border-bottom-color: #a77f34;
+    border-bottom-width: 5px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+#bvrgs {
+    display:block;
+    background-color: #fff;
+    border-bottom-color: #D09F47;
+    border-bottom-width: 5px;
+    height: fit-content;
+    border-radius: 20px;
+}
+    
 #wittetekst {
     color: #fff;
+}
+
+.bgbeverage {
+    filter: drop-shadow(0px 0px 3px rgba(208, 159, 71, 1));
+    margin: auto;
+    height: 100px;
+    overflow: hidden;
+}
+
+.bvrgstitle {
+    margin-bottom: 0;
+}
+.editicon {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    height: 12%;
 }
     
 #h1 {
@@ -131,7 +143,7 @@ body {
     font-weight: 900;
 }
     
-#CoffeeDickTitle{
+#CoffeeDickTitle {
     position: relative;
     margin-left: 0.8%;
     margin-top: 10px;
@@ -143,24 +155,6 @@ body {
 .nav-stacked li.active a{
      color: #090088;
 }
-
-    
-#h1{
-color: #D09F47;
-text-align: justify;
-font-weight: 900;
-}
-
-#CoffeeDickTitle{
-position: relative;
-margin-left: 0.8%;
-margin-top: 10px;
-color: white;
-font-family: Verdana, Tahoma, sans-serif;
-font-weight: 900;
-}
-
-
     
 /* On small screens, set height to 'auto' for the grid */
 @media screen and (max-width: 767px) {
@@ -186,12 +180,6 @@ h3 {
     margin: auto;
     margin-top: 35vh;
   }
-
-.bgbeverage {
-    filter: drop-shadow( 0px 0px 3px rgba(110, 76, 208, 1));
-    margin: auto;
-    max-width: 80%;
-}
 
 .rounddraai{
     width: 45px;

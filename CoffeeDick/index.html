@@ -9,7 +9,7 @@
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="/oogjes.js" async></script>
+    <script src="scripts/oogjes.js" async></script>
 </head>
 
 <body>
@@ -39,13 +39,15 @@
     <div class="container-fluid">
         <div class="row content">
             <div class="col-sm-2 sidenav hidden-xs">
-            <h2>CoffeeDick</h2>
+            <h2 class="name">CoffeeDick</h2>
+
             <div class="rounddraai">
                 <object type="image/svg+xml" data="imgs/eyes.svg" id="ogen-O1"></object>
             </div>
             <div class="rounddraai">
                 <object type="image/svg+xml" data="imgs/eyes.svg" id="ogen-O1"></object>
             </div>
+
             <ul class="nav nav-pills nav-stacked">
               <li class="active"><a href="index.html">Home</a></li>
               <li><a href="statistics.html">Statistics</a></li>
@@ -53,13 +55,23 @@
                 <h3>Customize</h3>
                 <li><a href="bots.html">Bots</a></li>
                 <li><a href="beverages.html">Beverages</a></li>
-            </ul><br>
+            </ul>
+            <br>
         </div>
     <br>
 
-    <h1 style="color: #D09F47;">Hi, User!</h1>
-
     <div class="col-sm-10">
+      <div class="pageheader">
+        <div class="pageheadertxt">
+            <h3>Hi, User!</h3>
+            <p>On this page you can edit all the bots there are to choose from.</p>
+        </div>
+
+        <div class="pageheaderballoon">
+            <img class="balloonimg" style="height:30px;border-radius:50%;" src="imgs/profilepic.jpg">
+            <div class="balloontxt"><a>Team: TNW &#9660;</a> | <a>Log out</a></div>
+        </div>
+    </div>
       <div class="row">
       <div class="col-sm-2">
           <div class="well" id="witblok">
