@@ -4,12 +4,12 @@
     <title>Beverages | CoffeeDick Dashboard</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/bs-style.css">
+    <!--<link rel="stylesheet" href="styles/bs-style.css"> -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
-    <!-- Original Bootstrap stylesheet: <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
     <script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/JavaScript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script type="text/JavaScript" src="scripts/oogjes.js" async></script>
@@ -75,7 +75,7 @@
 
             <div class="pageheaderballoon" onclick="expand()">
                 <img style="height:30px;border-radius:50%;" src="imgs/profilepic.jpg">
-                <div class="balloontxt"><a>Team: TNW &#9660;</a> | <a>Log out</a></div>
+                <div class="balloontxt"><a href="#">Team: TNW &#9660;</a> | <a href="#">Log out</a></div>
             </div>
         </div>
 
@@ -84,7 +84,9 @@
                 <div id="bvrgs" class="well">
                     <object class="bgbeverage" type="image/svg+xml" data="imgs/bvrgs/beverageRegular.svg"></object>
                     <a class="editbvrg"><object class="editicon" type="image/svg+xml" data="imgs/edit.svg"></object></a>
-                    <h4 class="bvrgstitle">Regular Coffee</h4>
+                    <div class="bvrgstitle">
+                        <h4>Regular Coffee</h4>
+                    </div>
                 </div>
             </div>
 

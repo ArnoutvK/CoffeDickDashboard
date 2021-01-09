@@ -15,6 +15,44 @@ body {
     overflow: hidden;
 }
 
+a {
+    color:rgba(110, 76, 208, 1);
+}
+
+h2.name {
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    hyphens: auto;
+}
+
+h3 {
+    color:rgba(208, 159, 71, 1);
+    font-weight: 1000;
+}
+
+a:hover {
+    color:rgba(110, 76, 208, 0.8);
+    text-decoration: underline;
+}
+
+.col-sm-10 {
+    padding: 0 50px;
+}
+
+
+.nav-stacked {
+    text-align: left;
+    margin: 50px 40px 0 40px ;
+}
+
+li.active>a {
+    background-color:rgba(110, 76, 208, 0.80) !important;
+    color: white !important;
+}
+
 #myNavbar {
     background-color: white;
 }
@@ -26,11 +64,20 @@ body {
 
 /* Set row height for all elements in the row */
 .row {
-    height: fit-content;
+    display: flex;
+}
+
+.well {
+    text-align: center;
+    height: 200px;
 }
 
 .col {
-    height: 100
+    flex: 1;
+}
+
+.pageheader {
+    padding-bottom: 20px;
 }
 
 .pageheadertxt {
@@ -40,14 +87,14 @@ body {
 .pageheaderballoon {
     position: absolute;
     display: inline-block;
+    margin-top: 20px;
     height: 50px;
-    vertical-align: middle;
     padding: 7px 10px;
     background-color: #fff;
     border-radius: 60px;
     border-bottom: 5px solid #D09F47;
+    right: 50px;
     width: 50px;
-    right: 3%;
     transition: 0.3s linear;
     overflow: hidden;
     white-space: nowrap;
@@ -107,6 +154,10 @@ body {
     border-bottom-width: 5px;
     height: fit-content;
     border-radius: 20px;
+}
+
+#bvrgs {
+    height: 90%;
 }
 
 #field {
@@ -212,12 +263,19 @@ input {
 .bgbeverage {
     filter: drop-shadow(0px 0px 3px rgba(208, 159, 71, 1));
     margin: auto;
-    height: 100px;
+    height: 60px;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .bvrgstitle {
-    margin-bottom: 0;
+    height: 40px;
+    position: relative;
+}
+
+.bvrgstitle.h4 {
+    position: absolute;
+    top: 50%;
 }
 
 .editbvrg, .editbot {
@@ -258,7 +316,7 @@ input {
     margin: 0;
 }
     
-#h1 {
+h1 {
     color: #D09F47;
     text-align: justify;
     font-weight: 900;
@@ -282,18 +340,6 @@ input {
     .row.content {
     height: 100vh;
     }
-}
-
-.name {
-    color: white;
-    text-align: center;
-    font-family: 'Rubik', sans-serif;
-    font-weight: bolder;
-    hyphens: auto;
-}
-
-h3 {
-    margin-top: 0 !important;
 }
 
 #ogen-01  {
