@@ -1,11 +1,14 @@
 window.onload = function () {
-
+ 
     var chart1 = new CanvasJS.Chart("chartContainer1", {
         animationEnabled: true,
         theme: "light2",
         title:{
             text: "Coffee consumed this week by team"
         },
+        axisX:{      
+            valueFormatString: "DDDD MMM YYYY" ,
+        }, 
         data: [{
             color: "#ffc300",        
             type: "line",
