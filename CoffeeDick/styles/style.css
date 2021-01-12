@@ -373,6 +373,31 @@ h1 {
 }
 
 #chartContainer2 {
+#blok1rij1{
+    width: 240px;
+}
+
+#blok2rij1{
+    margin-left: -6%;
+    width: 56%;
+}
+
+#blok3rij1{
+    width: 240px;
+    padding-left: -30%;
+}
+
+#blok4rij1{
+    width: 240px;
+    margin-right: -50px;
+}
+
+#blok2rij2{
+    width: 240px;
+}
+
+#barchart2 {
     height: 100%; 
     width: 100%;
 }
+
