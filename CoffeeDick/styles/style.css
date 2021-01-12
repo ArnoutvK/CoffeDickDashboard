@@ -137,7 +137,7 @@ li.active>a {
     background-size: cover;
     height: 100%;
 }
-    
+
 #witblok{
     display:block;
     background-color: #fff;
@@ -367,12 +367,12 @@ h1 {
         hyphens: auto;
     }
 }
-#chartContainer {
+#chartContainer1 {
     height: 100%; 
     width: 100%;
 }
 
-#barchart2 {
+#chartContainer2 {
     height: 100%; 
     width: 100%;
 }
