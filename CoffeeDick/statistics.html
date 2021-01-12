@@ -14,7 +14,8 @@
     <script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/JavaScript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script type="text/JavaScript" src="scripts/oogjes.js" async></script>
-    <script type="text/JavaScript" src="chartContainer.js"></script>
+    <script type="text/JavaScript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script type="text/javascript" src="/CoffeeDick/scripts/chartContainer.js" ></script>
 </head>
 
 <body>
@@ -53,7 +54,6 @@
                 <object type="image/svg+xml" data="imgs/eyes.svg" id="ogen-O1"></object>
             </div>
 
-                <div class="whitebg">
                     <!-- <object type="image/svg+xml" data="imgs/sidebarCoffee.svg"></object> -->
                     <ul class="nav nav-pills nav-stacked">
                         <li><a href="index.html">Home</a></li>
@@ -64,7 +64,7 @@
                         <li><a href="beverages.html">Beverages</a></li>
                     </ul><br>
                 </div>
-            </div>
+        
             
             <br>
 
@@ -74,7 +74,7 @@
             <div class="pageheader">
                 <div class="pageheadertxt">
                     <h3>Statistics</h3>
-                    <p>On this page you can view the statistics of your Team.</p>
+                    <p></p>
                 </div>
     
                 <div class="pageheaderballoon">
@@ -87,10 +87,11 @@
     <div class="row">
         <div class="col-sm-8">
             <div class="well" id="witblok">
-            <h4>Users</h4>
-            <p>1 Million</p>
+            <div id = "chartContainer2">
+                <h4> USERS</h4>
             </div>
         </div>
+    </div>
       
         <div class="col-sm-4">
             <div class="well" id="witblok">
@@ -106,15 +107,15 @@
   <div class="col-sm-4">
       <div class="well"id="geelblok">
         <h4 id="wittetekst">Your team consumed</h4>
+        <object class="bgbeverage" type="image/svg+xml" data="imgs/bvrgs/beverageRegular.svg"></object>
         <p id="wittetekst"><br><br><br><br><br><br><br>liters of coffee this week</p>
       </div>
   </div>
 
   <div class="col-sm-8">
       <div class="well" id="witblok">
-        <div id="chartContainer" >
-            <script src="chartContainer.js"></script>
-            <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+        <div id="chartContainer1" >
+      
         <h4>Coffee consumed this week by team </h4>
       </div>
   </div>
