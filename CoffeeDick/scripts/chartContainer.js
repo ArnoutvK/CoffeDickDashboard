@@ -12,15 +12,12 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		dataPoints: [
 
           
-            { y: 5 },
-			{ y: 10 },
-			{ y: 12 },
-			{ y: 7 },
-			{ y: 30 },
-			{ y: 25 },
-			{ y: 28 },
-			{ y: 45 },
-			{ y: 2 }
+            {x: new Date(2021, 00, 11), y: 5 },
+			{x: new Date(2021, 00, 12), y: 10 },
+			{x: new Date(2021, 00, 13), y: 12 },
+			{x: new Date(2021, 00, 14), y: 7 },
+			{x: new Date(2021, 00, 15), y: 30 },
+		
 
 
 
