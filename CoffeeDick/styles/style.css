@@ -373,6 +373,10 @@ h1 {
 }
 
 #chartContainer2 {
+    height: 100%; 
+    width: 100%;
+}
+
 #blok1rij1{
     width: 240px;
 }
@@ -400,4 +404,3 @@ h1 {
     height: 100%; 
     width: 100%;
 }
-
