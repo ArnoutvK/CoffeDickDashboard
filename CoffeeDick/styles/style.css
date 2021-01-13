@@ -268,6 +268,24 @@ input {
     margin-right: 20px;
 }
 
+#weekbutton {
+    background-color: #6e4cd0;
+    width: 70px;
+    height: 30px;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    border-bottom: 5px solid #58178d;
+    margin-top: -8%;
+    margin-right: 3%;
+    float: right;
+}
+
+#weektext{
+    text-align: right;
+    padding-right: 7%;
+}
+
 #paarsblok { 
     display:block;
     background-color: #6e4cd0;
@@ -279,8 +297,8 @@ input {
     
 #geelblok{
     display:block;
-    background-color: #D09F47;
-    border-bottom-color: #a77f34;
+    background-color: #EBC350;
+    border-bottom-color: #D09F47;
     border-bottom-width: 5px;
     height: 250px;
     border-radius: 20px;
@@ -288,6 +306,25 @@ input {
     
 #wittetekst {
     color: #fff;
+    margin-top: 1.5%;
+}
+
+#wittetekstconsumed {
+    color: #fff;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    font-weight:lighter;
+    font-size: 18px;
+}
+.counter-wittetext {
+    color: #fff;
+    margin-top: 5%;
+    margin-bottom: -10px;
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 5%;
+    font-size: 30px;
+    font-weight: bolder;
 }
 
 .bgbeverage {
@@ -297,6 +334,15 @@ input {
     overflow: hidden;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.bgbeverage2 {
+    filter: drop-shadow(0px 0px 3px rgba(208, 159, 71, 1));
+    margin: auto;
+    height: 85px;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-bottom: -5%;
 }
 
 .bvrgstitle {
@@ -399,7 +445,7 @@ h1 {
 }
 
 #chartContainer1 {
-    height: 100%; 
+    height: 90%; 
     width: 100%;
 }
 
@@ -407,6 +453,18 @@ h1 {
     height: 100%; 
     width: 100%;
 }
+
+#box {
+    height: 20px;
+    width: 6.9%;
+
+    margin-top:-20px;
+    margin-bottom: 0px;
+    background-color:white;
+    display: block;
+    position: absolute;
+  }
+  
 
 #blok1rij1{
     width: 240px;
@@ -431,14 +489,54 @@ h1 {
     width: 240px;
 }
 
-#barchart2 {
-    height: 100%; 
-    width: 100%;
-}
+
 .canvasjs-chart-credit{
     display:none;
 }
 
-a.navbar-brand {
-    color: white !important;
+#Leaderboardtitle{
+    margin-left: 7%;
+    text-align: left;
+    font-weight: bold;
 }
+
+#Leaderboardsubtitle{
+    margin-left: 7%;
+    text-align: left;
+    margin-top: -1.5%;
+    padding-bottom: 3%;
+    font-weight: bold;
+    color:rgba(121, 68, 0, 0.8);
+}
+
+#Leaderboard {
+    height: 210px;
+    text-align: left; 
+    line-height:200%;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+    font-weight: 600;
+    display:block;
+    padding-right: 10%;
+}
+
+.counter-count {
+    font-size: 60px;
+    position: relative;
+    color: #333;
+    text-align: center;
+    line-height: 92px;
+    width: 92px;
+    height: 92px;
+    display: inline-block;
+}
+
+#consumetitle{
+font-style: italic;
+margin-top: 0%;
+}
+
