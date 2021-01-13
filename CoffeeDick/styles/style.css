@@ -45,7 +45,7 @@ a:hover {
 
 .nav-stacked {
     text-align: left;
-    margin: 50px 40px 0 40px ;
+    margin: 20px 5% 0 5%;
 }
 
 li.active>a {
@@ -67,6 +67,10 @@ li.active>a {
     display: flex;
 }
 
+.row.top {
+    margin-top: 20px;
+}
+
 .well {
     text-align: center;
     height: 200px;
@@ -76,8 +80,15 @@ li.active>a {
     flex: 1;
 }
 
+.navbar-header {
+    background-color:rgba(208, 159, 71, 1);
+}
+
 .pageheader {
+    height: 130px;
+    position: relative;
     padding-bottom: 20px;
+    border-bottom: 1px solid #999;
 }
 
 .pageheadertxt {
@@ -86,14 +97,15 @@ li.active>a {
 
 .pageheaderballoon {
     position: absolute;
-    display: inline-block;
+    display: block;
     margin-top: 20px;
     height: 50px;
     padding: 7px 10px;
     background-color: #fff;
     border-radius: 60px;
     border-bottom: 5px solid #D09F47;
-    right: 50px;
+    top: 0;
+    right: 0;
     width: 50px;
     transition: 0.3s linear;
     overflow: hidden;
@@ -124,6 +136,18 @@ li.active>a {
 .balloontxt>a:hover {
     color: #6e4cd0 !important;
     text-decoration: none;
+}
+
+.addbot {
+    position: absolute;
+    bottom: 0;
+    background-color: #6e4cd0;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    border-bottom: 5px solid #58178d;
+    right: 0;
+    margin-bottom: 10px;
 }
 
 /* Set white background color and 100% height */
@@ -163,6 +187,7 @@ li.active>a {
 #field {
     text-align: left;
     padding-bottom: 20px;
+    padding-left: 40px;
 }
 
 .avatar {
@@ -218,8 +243,13 @@ input {
 .submitbtns {
     display: block;
     position: relative;
-    bottom: 40px;
-    margin-top: 20px;
+    margin-top: 30px;
+}
+
+.delete {
+    color: red;
+    line-height: 50px;
+    vertical-align: middle;
 }
 
 .addbtn {
@@ -265,17 +295,17 @@ input {
     margin: auto;
     height: 60px;
     overflow: hidden;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .bvrgstitle {
-    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    overflow-wrap: break-word;
     position: relative;
-}
-
-.bvrgstitle.h4 {
-    position: absolute;
-    top: 50%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .editbvrg, .editbot {
@@ -349,24 +379,25 @@ h1 {
     margin-top: 35vh;
   }
 
-.rounddraai{
+.rounddraai {
     width: 45px;
     height: 45px;
     display: inline-block;
     text-align: center;
-    margin-top: 35vh;
-    margin-right: 7px;
+    margin-top: 200px;
 }
 
 @media screen and (max-width: 1000px) {
     .rounddraai {
         display: none;
-    } .nav-stacked {
-        top: 200px;
     } .nav>li {
         hyphens: auto;
+    } .nav-stacked {
+        margin: 0;
+        margin-top: 200px;
     }
 }
+
 #chartContainer1 {
     height: 100%; 
     width: 100%;
@@ -406,4 +437,8 @@ h1 {
 }
 .canvasjs-chart-credit{
     display:none;
+}
+
+a.navbar-brand {
+    color: white !important;
 }
