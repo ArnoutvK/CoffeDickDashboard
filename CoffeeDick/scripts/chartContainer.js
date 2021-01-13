@@ -3,9 +3,7 @@ window.onload = function () {
     var chart1 = new CanvasJS.Chart("chartContainer1", {
         animationEnabled: true,
         theme: "light2",
-        title:{
-            text: "Coffee consumed this week by team"
-        },
+      
         axisX:{      
             valueFormatString: "DDDD MMM YYYY" ,
         }, 
@@ -14,20 +12,12 @@ window.onload = function () {
             type: "line",
             lineColor: "#ffc300",
               indexLabelFontSize: 16,
-            dataPoints: [
-    
-              
-                {x: new Date(2021, 00, 11), y: 5 },
-                {x: new Date(2021, 00, 12), y: 10 },
-                {x: new Date(2021, 00, 13), y: 12 },
-                {x: new Date(2021, 00, 14), y: 7 },
-                {x: new Date(2021, 00, 15), y: 30 },
-            
-    
-    
-    
-    
-                
+            dataPoints: [     
+                {x: new Date(2021, 00, 11), y: 38 },
+                {x: new Date(2021, 00, 12), y: 29 },
+                {x: new Date(2021, 00, 13), y: 32 },
+                {x: new Date(2021, 00, 14), y: 37 },
+                {x: new Date(2021, 00, 15), y: 27 },   
             ]
         }]
     });
@@ -47,34 +37,19 @@ window.onload = function () {
             color: "#ffc300",
             legendText: "Beverages",
             dataPoints: [      
-                { y: 1 },
-                { y: 2},
-                { y: 4},
-                { y: 7},
-                { y: 8},
-                { y: 3},
-                { y: 10},
-                { y: 2}
+                { x: 1,y: 25},
+                { x: 2, y: 20},
+                { x: 3,y: 35},
+                { x: 4, y: 47},
+                { x: 5,y: 40},
+                { x: 6,y: 13},
+                { x: 7,y: 42},
+                { x: 8,y: 38}
             ]
             ,fill: false
         }]
     });
 
-    options: {
-
-        plugins: {
-    
-          colorschemes: {
-    
-            scheme: 'brewer.SetOne6'
-    
-          }
-    
-        }
-    
-      }
-
     chart1.render();
     chart2.render();
-    
     }

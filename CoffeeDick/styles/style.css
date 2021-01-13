@@ -77,7 +77,9 @@ li.active>a {
 }
 
 .pageheader {
+    margin-top: 1%;
     padding-bottom: 20px;
+    margin-bottom: 2%;
 }
 
 .pageheadertxt {
@@ -249,8 +251,8 @@ input {
     
 #geelblok{
     display:block;
-    background-color: #D09F47;
-    border-bottom-color: #a77f34;
+    background-color: #EBC350;
+    border-bottom-color: #D09F47;
     border-bottom-width: 5px;
     height: 250px;
     border-radius: 20px;
@@ -368,7 +370,7 @@ h1 {
     }
 }
 #chartContainer1 {
-    height: 100%; 
+    height: 90%; 
     width: 100%;
 }
 
@@ -400,16 +402,12 @@ h1 {
     width: 240px;
 }
 
-#barchart2 {
-    height: 100%; 
-    width: 100%;
-}
+
 .canvasjs-chart-credit{
     display:none;
 }
 
 #Leaderboardtitle{
-    margin-top: 2%;
     margin-left: 7%;
     text-align: left;
     font-weight: bold;
@@ -427,7 +425,6 @@ h1 {
 #Leaderboard {
     height: 210px;
     text-align: left; 
-    margin-top:-2%;
     line-height:200%;
     display: block;
 }
@@ -437,8 +434,7 @@ ul {
     text-align: right;
     font-weight: 600;
     display:block;
-    margin-top: -45%;
-}
+    padding-right: 10%;
 }
 
 .counter-count {
@@ -456,4 +452,9 @@ ul {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     display: inline-block;
+}
+
+#consumetitle{
+font-style: italic;
+margin-top: 0%;
 }
