@@ -497,19 +497,13 @@ ul {
 }
 
 .counter-count {
-    font-size: 18px;
-    background-color: #00b3e7;
-    border-radius: 50%;
+    font-size: 60px;
     position: relative;
-    color: #ffffff;
+    color: #333;
     text-align: center;
     line-height: 92px;
     width: 92px;
     height: 92px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
     display: inline-block;
 }
 
