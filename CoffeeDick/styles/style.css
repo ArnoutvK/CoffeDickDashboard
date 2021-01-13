@@ -407,3 +407,9 @@ h1 {
 .canvasjs-chart-credit{
     display:none;
 }
+
+#Leaderboard {
+text-align: left; 
+margin-top:-2%;
+line-height:200%;
+}
