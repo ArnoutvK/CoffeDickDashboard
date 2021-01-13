@@ -240,6 +240,26 @@ input {
     margin-right: 20px;
 }
 
+#weekbutton {
+    display: inline-block;
+    background-color: #6e4cd0;
+    width:70px;
+    height:30px;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    border-bottom: 5px solid #58178d;
+    margin-bottom: 10px;
+    margin-top: -6%;
+    margin-left:62%;
+    position: absolute;
+}
+
+#weektext{
+    text-align: right;
+    padding-right: 13%;
+}
+
 #paarsblok { 
     display:block;
     background-color: #6e4cd0;
@@ -405,6 +425,18 @@ h1 {
     height: 100%; 
     width: 100%;
 }
+
+#box {
+    height: 20px;
+    width: 6.9%;
+
+    margin-top:-20px;
+    margin-bottom: 0px;
+    background-color:white;
+    display: block;
+    position: absolute;
+  }
+  
 
 #blok1rij1{
     width: 240px;
