@@ -241,7 +241,6 @@ input {
 }
 
 #weekbutton {
-    display: inline-block;
     background-color: #6e4cd0;
     width: 70px;
     height: 30px;
@@ -251,7 +250,7 @@ input {
     border-bottom: 5px solid #58178d;
     margin-top: -8%;
     margin-right: 3%;
-    float:right;
+    float: right;
 }
 
 #weektext{
