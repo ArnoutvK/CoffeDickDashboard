@@ -243,21 +243,20 @@ input {
 #weekbutton {
     display: inline-block;
     background-color: #6e4cd0;
-    width:70px;
-    height:30px;
+    width: 70px;
+    height: 30px;
     color: white;
     border-radius: 7px;
     border: none;
     border-bottom: 5px solid #58178d;
-    margin-bottom: 10px;
-    margin-top: -6%;
-    margin-left:62%;
-    position: absolute;
+    margin-top: -8%;
+    margin-right: 3%;
+    float:right;
 }
 
 #weektext{
     text-align: right;
-    padding-right: 13%;
+    padding-right: 7%;
 }
 
 #paarsblok { 
