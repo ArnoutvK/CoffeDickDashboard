@@ -288,13 +288,14 @@ input {
     font-weight:lighter;
     font-size: 18px;
 }
-#wittetekstcijfer {
+.counter-wittetext {
     color: #fff;
     margin-top: 5%;
     margin-bottom: -10px;
     text-align: center;
     padding-right: 10%;
     padding-left: 5%;
+    font-size: 30px;
     font-weight: bolder;
 }
 
