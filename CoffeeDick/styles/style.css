@@ -425,15 +425,17 @@ h1 {
 }
 
 #Leaderboard {
+    height: 210px;
     text-align: left; 
     margin-top:-2%;
     line-height:200%;
     display: block;
 }
 
-#Leaderboard2 {
+ul {
+    list-style-type: none;
     text-align: right;
-    margin-top: -45%;
-    margin-right: 7%;
     font-weight: 600;
+    display:block;
+    margin-top: -45%;
 }
