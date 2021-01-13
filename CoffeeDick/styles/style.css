@@ -260,6 +260,21 @@ input {
     
 #wittetekst {
     color: #fff;
+    margin-top: 1.5%;
+}
+
+#wittetekstconsumed {
+    color: #fff;
+    margin-top: 0%;
+    font-weight:lighter;
+}
+#wittetekstcijfer {
+    color: #fff;
+    margin-bottom: 0%;
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 5%;
+    font-weight: bolder;
 }
 
 .bgbeverage {
@@ -268,6 +283,15 @@ input {
     height: 60px;
     overflow: hidden;
     margin-bottom: 20px;
+}
+
+.bgbeverage2 {
+    filter: drop-shadow(0px 0px 3px rgba(208, 159, 71, 1));
+    margin: auto;
+    height: 85px;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-bottom: -5%;
 }
 
 .bvrgstitle {
