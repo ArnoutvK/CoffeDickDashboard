@@ -408,8 +408,32 @@ h1 {
     display:none;
 }
 
+#Leaderboardtitle{
+    margin-top: 2%;
+    margin-left: 7%;
+    text-align: left;
+    font-weight: bold;
+}
+
+#Leaderboardsubtitle{
+    margin-left: 7%;
+    text-align: left;
+    margin-top: -1.5%;
+    padding-bottom: 3%;
+    font-weight: bold;
+    color:rgba(121, 68, 0, 0.8);
+}
+
 #Leaderboard {
-text-align: left; 
-margin-top:-2%;
-line-height:200%;
+    text-align: left; 
+    margin-top:-2%;
+    line-height:200%;
+    display: block;
+}
+
+#Leaderboard2 {
+    text-align: right;
+    margin-top: -45%;
+    margin-right: 7%;
+    font-weight: 600;
 }
