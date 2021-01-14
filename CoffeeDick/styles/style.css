@@ -192,6 +192,7 @@ li.active>a {
     text-align: left;
     padding-bottom: 20px;
     padding-left: 40px;
+    width: 80%;
 }
 
 .avatar {
@@ -212,7 +213,7 @@ li.active>a {
     border-radius: 20px;
 }
 
-.avatarbtns>button, .submitbtns>button {
+.avatarbtns>button, .submitbtns>button{
     padding: 10px 20px;
     width: 100px;
 }
@@ -223,7 +224,8 @@ li.active>a {
     margin-left: 20px;
 }
 
-.submitbtn, .addbtn {
+
+.submitbtn, .addbtn, .addbtn1 {
     display: block;
     background-color: #6e4cd0;
     color: white;
@@ -266,6 +268,12 @@ input {
 .addbtn {
     display: block;
     float: right;
+}
+
+.addbtn1{
+    display: block;
+    float: right;
+    width: 25% !important;
 }
 
 .cancelbtn {
@@ -561,3 +569,6 @@ font-style: italic;
 margin-top: 0%;
 }
 
+#textaddbeverage{
+    font-size: 25px;
+}
