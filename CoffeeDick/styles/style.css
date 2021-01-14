@@ -33,8 +33,15 @@ h3 {
     font-weight: 1000;
 }
 
-a:hover {
-    color:rgba(110, 76, 208, 0.8);
+.nav>li>a:hover {
+    background-color:rgba(255, 255, 255, 1);
+    color: rgba(110, 76, 208, 1);
+    text-decoration: underline;
+}
+
+.nav-pills>li.active>a:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color:rgba(110, 76, 208, 0.60);
     text-decoration: underline;
 }
 
@@ -90,7 +97,7 @@ li.active>a {
     padding-bottom: 20px;
 }
 
-.pageheader.border {
+.border {
     border-bottom: 1px solid #999;
     margin-bottom: 20px;
 }
@@ -164,6 +171,7 @@ li.active>a {
     background-image: url('../imgs/sidebarCoffee.svg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
 }
 
 #witblok{
@@ -370,6 +378,9 @@ input {
     top: 15px;
     right: 30px;
     height: 12%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    height: fit-content;
 }
 
 .bot1 {
