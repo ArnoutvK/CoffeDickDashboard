@@ -346,7 +346,7 @@ input {
     color: #fff;
     margin-top: 7%;
     margin-bottom: 4%;
-    margin-left:30%;
+    margin-left:40%;
     font-weight:bold;
     font-size: 20px;
     text-align: left;
@@ -531,6 +531,9 @@ h1 {
 
 #blok2rij2{
     width: 25%;
+}
+#blok3rij2 {
+    width: 29.3% !important;
 }
 
 
