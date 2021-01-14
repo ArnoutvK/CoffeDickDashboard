@@ -573,7 +573,7 @@ h1 {
 }
 
 .counter-count {
-    font-size: 60px;
+    font-size: 5rem;
     font-weight: bolder;
     position: relative;
     color: #333;
@@ -590,7 +590,7 @@ h1 {
 }
 
 #cappucino{
-    font-size: 25px;
+    font-size: 2rem;
     font-weight: bolder; 
     margin-top: -10%;   
     margin-bottom: 10%;
