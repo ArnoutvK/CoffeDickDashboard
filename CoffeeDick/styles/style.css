@@ -172,7 +172,6 @@ li.active>a {
     filter: drop-shadow(0 0.5rem 0.5rem rgba(0, 0, 0, 0.5));
 }
 
-
 #witblok{
     display:block;
     background-color: #fff;
@@ -486,7 +485,7 @@ h1 {
     height: 45px;
     display: inline-block;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 250px;
 }
 
 @media screen and (max-width: 1000px) {
