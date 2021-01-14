@@ -164,7 +164,8 @@ li.active>a {
     height: 100%;
     background-image: url('../imgs/sidebarCoffee.svg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center top;
     border-radius: 0px 0px 40px 0px;
     filter: drop-shadow(0 0.5rem 0.5rem rgba(0, 0, 0, 0.5));
 }
@@ -207,12 +208,12 @@ li.active>a {
 .imageUpload {
     display: inline-block;
     vertical-align: middle;
-    height: 150px;
+    height: 115px;
 }
 
 .imageUpload>img {
-    height: 150px;
-    width: 150px;
+    height: 115px;
+    width: 115px;
     border-radius: 20px;
 }
 
@@ -546,7 +547,7 @@ h1 {
 }
 
 .counter-count {
-    font-size: 60px;
+    font-size: 5rem;
     font-weight: bolder;
     position: relative;
     color: #333;
@@ -563,7 +564,7 @@ h1 {
 }
 
 #cappucino{
-    font-size: 25px;
+    font-size: 2rem;
     font-weight: bolder; 
     margin-top: -10%;   
     margin-bottom: 10%;
