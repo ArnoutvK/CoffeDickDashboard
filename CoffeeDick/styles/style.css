@@ -147,6 +147,7 @@ li.active>a {
     position: absolute;
     bottom: 0;
     background-color: #6e4cd0;
+    padding: 5px 10px;
     color: white;
     border-radius: 15px;
     border: none;
@@ -164,7 +165,11 @@ li.active>a {
     background-image: url('../imgs/sidebarCoffee.svg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center top;
+    border-radius: 0px 0px 40px 0px;
+    filter: drop-shadow(0 0.5rem 0.5rem rgba(0, 0, 0, 0.5));
 }
+
 
 #witblok{
     display:block;
@@ -204,12 +209,12 @@ li.active>a {
 .imageUpload {
     display: inline-block;
     vertical-align: middle;
-    height: 150px;
+    height: 115px;
 }
 
 .imageUpload>img {
-    height: 150px;
-    width: 150px;
+    height: 115px;
+    width: 115px;
     border-radius: 20px;
 }
 
@@ -346,6 +351,25 @@ input {
     font-weight: bolder;
 }
 
+#wittetekst2{
+    color: #fff;
+    margin-top: 13%;
+    margin-bottom: 4%;
+    font-weight:bold;
+    font-size: 18px;
+    text-align: left;
+
+}
+
+.paarsetekst{
+    color: #6E47D0;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    font-weight:lighter;
+    font-size: 17px;
+    text-align: left;
+}
+
 .bgbeverage {
     filter: drop-shadow(0px 0px 3px rgba(208, 159, 71, 1));
     margin: auto;
@@ -366,11 +390,13 @@ input {
 
 .bgbeverage3 {
     filter: drop-shadow(0px 0px 3px rgba(208, 159, 71, 1));
-    margin: auto;
-    height: 130px;
+    margin-top: 17%;
+    margin-bottom: 15%;
+    margin-left: 5%;
+    margin-right: 7%;
+    height: 50%;
     overflow: hidden;
-    margin-top: 5%;
-    margin-bottom: -5%;
+    float: left;
 }
 
 .bvrgstitle {
@@ -494,30 +520,6 @@ h1 {
   }
   
 
-#blok1rij1{
-    width: 240px;
-}
-
-#blok2rij1{
-    margin-left: -6%;
-    width: 56%;
-}
-
-#blok3rij1{
-    width: 240px;
-    padding-left: -30%;
-}
-
-#blok4rij1{
-    width: 240px;
-    margin-right: -50px;
-}
-
-#blok2rij2{
-    width: 240px;
-}
-
-
 .canvasjs-chart-credit{
     display:none;
 }
@@ -553,7 +555,7 @@ h1 {
 }
 
 .counter-count {
-    font-size: 60px;
+    font-size: 4vw;
     font-weight: bolder;
     position: relative;
     color: #333;
@@ -565,10 +567,18 @@ h1 {
 }
 
 #consumetitle{
-font-style: italic;
-margin-top: 0%;
+    font-style: italic;
+    margin-top: 0%;
 }
 
 #textaddbeverage{
     font-size: 25px;
 }
+
+#cappucino{
+    font-size: 1.5vw;
+    font-weight: bolder; 
+    margin-top: -10%;   
+    margin-bottom: 10%;
+}
+
