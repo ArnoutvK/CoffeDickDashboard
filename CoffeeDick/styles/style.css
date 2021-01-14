@@ -535,13 +535,6 @@ h1 {
     padding-right: 10%;    
 }
 
-ul {
-    list-style-type: none;
-    text-align: right;
-    font-weight: 600;
-    display:block;
-}
-
 .counter-count {
     font-size: 60px;
     position: relative;
