@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: "Rubik";
     src: url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 }
@@ -7,6 +7,8 @@
     font-family: "Karla";
     src: url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
 }
+
+*/
 
 /* Set background color to a color */
 body {
@@ -105,7 +107,7 @@ li.active>a {
 .pageheaderballoon {
     position: absolute;
     display: block;
-    margin-top: 20px;
+    margin-top: 40px;
     height: 50px;
     padding: 7px 10px;
     background-color: #fff;
@@ -282,10 +284,27 @@ input {
     width: 25% !important;
 }
 
-.bvrginfo {
-    display: inline;
-    height: 90%;
+.infocontainer {
+    height: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.infoimage {
+    display: inline-block;
     width: 30%;
+}
+
+.infotxt {
+    display: inline-block;
+    width: 40%;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.infolink {
+    display: block;
+    text-align: left;
 }
 
 .cancelbtn {
@@ -359,21 +378,11 @@ input {
 }
 
 #wittetekst2{
-    display: inline-block;
+    overflow: hidden;
     color: #fff;
     margin-bottom: 4%;
     font-weight:bold;
     font-size: 18px;
-    text-align: left;
-
-}
-
-.paarsetekst{
-    color: #6E47D0;
-    margin-top: 2%;
-    margin-bottom: 0%;
-    font-weight:lighter;
-    font-size: 17px;
     text-align: left;
 }
 
