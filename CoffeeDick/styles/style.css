@@ -338,6 +338,24 @@ input {
     font-weight: bolder;
 }
 
+#wittetekst2{
+    text-align: justify;
+    color: #fff;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    margin-left: 10%;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.paarsetekst{
+    color: rgb(112, 0, 88);
+    margin-top: 2%;
+    margin-bottom: 0%;
+    font-weight:lighter;
+    font-size: 18px;
+}
+
 .bgbeverage {
     filter: drop-shadow(0px 0px 3px rgba(208, 159, 71, 1));
     margin: auto;
@@ -486,7 +504,7 @@ h1 {
   
 
 #blok1rij1{
-    width: 240px;
+    width: 25%;
 }
 
 #blok2rij1{
@@ -495,17 +513,15 @@ h1 {
 }
 
 #blok3rij1{
-    width: 240px;
-    padding-left: -30%;
+    width: 25%;
 }
 
 #blok4rij1{
-    width: 240px;
-    margin-right: -50px;
+    width: 25%;
 }
 
 #blok2rij2{
-    width: 240px;
+    width: 25%;
 }
 
 
