@@ -364,6 +364,15 @@ input {
     margin-bottom: -5%;
 }
 
+.bgbeverage3 {
+    filter: drop-shadow(0px 0px 3px rgba(208, 159, 71, 1));
+    margin: auto;
+    height: 130px;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-bottom: -5%;
+}
+
 .bvrgstitle {
     line-height: 40px;
     vertical-align: middle;
