@@ -88,10 +88,15 @@ li.active>a {
     height: 130px;
     position: relative;
     padding-bottom: 20px;
+}
+
+.pageheader.border {
     border-bottom: 1px solid #999;
+    margin-bottom: 20px;
 }
 
 .pageheadertxt {
+    margin-top: 20px;
     display: inline-block;
 }
 
@@ -156,10 +161,9 @@ li.active>a {
     text-align: center;
     background-color: #D09F47;
     height: 100%;
-    background-image: url('../imgs/Frame1a.svg');
+    background-image: url('../imgs/sidebarCoffee.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
 }
 
 #witblok{
@@ -199,6 +203,13 @@ li.active>a {
 .imageUpload {
     display: inline-block;
     vertical-align: middle;
+    height: 150px;
+}
+
+.imageUpload>img {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
 }
 
 .avatarbtns>button, .submitbtns>button {
@@ -243,7 +254,7 @@ input {
 .submitbtns {
     display: block;
     position: relative;
-    margin-top: 30px;
+    height: 40px;
 }
 
 .delete {
@@ -296,7 +307,7 @@ input {
 }
     
 #geelblok{
-    display:block;
+    display: block;
     background-color: #EBC350;
     border-bottom-color: #D09F47;
     border-bottom-width: 5px;
@@ -521,7 +532,6 @@ ul {
     text-align: right;
     font-weight: 600;
     display:block;
-    padding-right: 10%;
 }
 
 .counter-count {
