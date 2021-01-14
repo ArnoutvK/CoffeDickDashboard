@@ -19,6 +19,10 @@ a {
     color:rgba(110, 76, 208, 1);
 }
 
+p {
+    color: #563F30;
+}
+
 h2.name {
     padding-top: 20px;
     height: 2em;
@@ -315,6 +319,7 @@ input {
 #weektext{
     text-align: right;
     padding-right: 7%;
+    color:white;
 }
 
 #paarsblok { 
@@ -535,6 +540,7 @@ h1 {
     margin-left: 7%;
     text-align: left;
     font-weight: bold;
+    color: #563F30;
 }
 
 #Leaderboardsubtitle{
@@ -566,7 +572,7 @@ h1 {
     font-weight: bolder;
     font-family: 'Rubik', sans-serif;
     position: relative;
-    color: #333;
+    color: #563F30;
     text-align: center;
     line-height: 92px;
     width: 92px;
@@ -590,3 +596,37 @@ h1 {
     margin-bottom: 10%;
 }
 
+#cups{
+    font-size: 1.5vw;
+    font-weight: bolder; 
+    margin-top: -20%;   
+    margin-bottom: 10%;
+}
+
+.indextext{
+    color: #563F30;
+    font-size: 1.1vw;
+}
+
+#leadname{
+    color: #6E47D0; 
+    font-size: 1.2vw;
+    font-weight: bolder;  
+    margin-left: -60%;  
+}
+
+#blocktitle{
+    color: #563F30; 
+    font-size: 1.2vw;
+    font-weight: bolder;   
+    margin-bottom: 10%;   
+}
+
+
+#blocktitle2{
+    color: #563F30; 
+    font-size: 1.2vw;
+    font-weight: bolder;   
+    margin-top: -8.2%;
+    margin-left: 16%;    
+}
