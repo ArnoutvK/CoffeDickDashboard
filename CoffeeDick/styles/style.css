@@ -537,6 +537,7 @@ h1 {
 
 .counter-count {
     font-size: 60px;
+    font-weight: bolder;
     position: relative;
     color: #333;
     text-align: center;
