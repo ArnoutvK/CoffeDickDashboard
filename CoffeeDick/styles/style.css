@@ -21,6 +21,7 @@ a {
 
 h2.name {
     padding-top: 20px;
+    height: 2em;
     color: white;
     text-align: center;
     font-family: 'Rubik', sans-serif;
