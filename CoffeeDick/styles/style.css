@@ -228,7 +228,7 @@ li.active>a {
     margin-left: 20px;
 }
 
-.submitbtn, .addbtn {
+.submitbtn, .addbtn  {
     display: block;
     background-color: #6e4cd0;
     color: white;
@@ -238,6 +238,16 @@ li.active>a {
     margin-bottom: 10px;
 }
 
+.addbtn1{
+    float: right;
+    background-color: #6e4cd0;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    border-bottom: 5px solid #58178d;
+    margin-bottom: 10px;
+    width: 22% !important;
+}
 .resetbtn {
     background-color: white;
     color: #444;
@@ -345,10 +355,12 @@ input {
 
 #wittetekst2{
     color: #fff;
+    margin-top: 13%;
+    margin-bottom: 4%;
     font-weight:bold;
-    font-size: 1.1vw;
+    font-size: 18px;
     text-align: left;
-    margin-top: 10%;
+
 }
 
 .brewtext2{
@@ -585,12 +597,12 @@ h1 {
 }
 
 .indextext {
-    font-size: 0.9vw;
+    font-size: 0.8vw;
     color: #563F30;
 }
 
 #cups {
-    font-size: 1.0vw;
+    font-size: 0.8  vw;
     color: #563F30;
 }
 
@@ -605,55 +617,20 @@ h1 {
     font-weight: bolder;
 }
 
-.blocktitle2 {
+#blocktitle2 {
     font-size: 1.5vw;
     color: #563F30;
     font-family: 'Rubik', sans-serif;
     font-weight: bolder;
-    margin-left: 10px;
-}
-
-.leadname {
-    font-size: 1.5vw;
-    color: #6E47D0;
-    font-family: 'Rubik', sans-serif;
-    font-weight: bolder;
-}
-
-#gibby_big {
-    width: 30%;
-    margin-top:5px;
-}
-
-.gibster {
-    font-size: 1.1vw;
-    color: #6E47D0;
-    font-family: 'Rubik', sans-serif;
-    font-weight: bolder;
-}
-
-.gibbster {
-    font-size: 1.1vw;
-    color: #563F30;
-    font-family: 'Rubik', sans-serif;
-    font-weight: bolder;
+    float: in;
     margin-left: 5px;
 }
 
-#indexlead {
-    width: 45%;
-}
-
-.infoimage {
-    width: 40%;
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    margin-top: -5%;
-}
-
-.infolink {
-    text-align:left;
-    font-size: 0.8vw;
-    margin-top: 20px;
+#leadname {
+    font-size: 1.5vw;
+    color: #6E47D0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    float: inline-start;
+    margin-left: 10px;
 }
