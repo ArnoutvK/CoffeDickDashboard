@@ -89,7 +89,7 @@ li.active>a {
 }
 
 .pageheader {
-    height: 130px;
+    height: 140px;
     position: relative;
     padding-bottom: 20px;
 }
@@ -157,6 +157,7 @@ li.active>a {
     border: none;
     border-bottom: 5px solid #58178d;
     right: 0;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 
