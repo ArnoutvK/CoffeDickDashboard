@@ -367,15 +367,18 @@ input {
     font-weight: lighter;
     font-size: 1.1vw;
     margin-top: -1%;  
-
+    text-align: left;
 }
+
+ 
 
 .brewtext3{
     color: #563F30;
     font-weight: lighter;
     font-size: 1.1vw;
-    text-align: center; 
+    text-align: left; 
     margin-left: 30%;
+    
 }
 
 .paarsetekst{
@@ -614,6 +617,7 @@ h1 {
     color: #563F30;
     font-family: 'Rubik', sans-serif;
     font-weight: bolder;
+    text-align: left;
 }
 
 .blocktitle2 {
@@ -661,6 +665,15 @@ h1 {
     margin-right: 10px;
     margin-bottom: 20px;
     margin-top: -5%;
+}
+
+.infoimage1 {
+    width: 40%;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 7%;
+    
 }
 
 .infolink {
