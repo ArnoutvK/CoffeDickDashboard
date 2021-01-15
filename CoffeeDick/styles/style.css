@@ -238,6 +238,17 @@ li.active>a {
     margin-bottom: 10px;
 }
 
+.addbtn1{
+    float: right;
+    background-color: #6e4cd0;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    border-bottom: 5px solid #58178d;
+    margin-bottom: 10px;
+    width: 22% !important;
+}
+
 .resetbtn {
     background-color: white;
     color: #444;
@@ -355,7 +366,7 @@ input {
     color: #563F30;
     font-weight: lighter;
     font-size: 1.1vw;
-    margin-top: 10%;  
+    margin-top: -1%;  
 
 }
 
