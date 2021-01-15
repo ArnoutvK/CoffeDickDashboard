@@ -351,6 +351,22 @@ input {
     margin-top: 10%;
 }
 
+.brewtext2{
+    color: #563F30;
+    font-weight: lighter;
+    font-size: 1.1vw;
+    margin-top: 10%;  
+
+}
+
+.brewtext3{
+    color: #563F30;
+    font-weight: lighter;
+    font-size: 1.1vw;
+    text-align: center; 
+    margin-left: 30%;
+}
+
 .paarsetekst{
     color: #6E47D0;
     margin-top: 2%;
