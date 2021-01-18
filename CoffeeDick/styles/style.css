@@ -8,15 +8,10 @@
     src: url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
 }
 
-/* Set background color to a color */
 body {
     background-color: #eee !important;
     font-family: 'Rubik', 'Karla', sans-serif;
     overflow: hidden;
-}
-
-a {
-    color:rgba(110, 76, 208, 1);
 }
 
 h2.name {
@@ -34,6 +29,10 @@ h3 {
     font-family: 'Rubik';
 }
 
+a {
+    color:rgba(110, 76, 208, 1);
+}
+
 a:hover {
     color:rgba(110, 76, 208, 0.8);
     text-decoration: underline;
@@ -43,29 +42,26 @@ a:hover {
     padding: 0 50px;
 }
 
-
 .nav-stacked {
     text-align: left;
     margin: 20px 5% 0 5%;
 }
 
 li.active>a {
-    background-color:rgba(110, 76, 208, 0.80) !important;
-    color: white !important;
+    background-color:rgba(110, 76, 208, 1) !important;
+    color: rgba(255, 255, 255, 1) !important;
 }
 
 #mynavbar {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 1);
 }
 
-/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-.row.content {
-    height: 100vh
-}
-
-/* Set row height for all elements in the row */
 .row {
     display: flex;
+}
+
+.row.content {
+    height: 100vh
 }
 
 .row.top {
@@ -92,7 +88,7 @@ li.active>a {
 }
 
 .pageheader.border {
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid rgba(153, 153, 153, 1);
     margin-bottom: 20px;
 }
 
@@ -107,9 +103,9 @@ li.active>a {
     margin-top: 20px;
     height: 50px;
     padding: 7px 10px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 1);
     border-radius: 60px;
-    border-bottom: 5px solid #D09F47;
+    border-bottom: 5px solid rgba(208, 159, 71, 1);
     top: 0;
     right: 0;
     width: 50px;
@@ -147,21 +143,20 @@ li.active>a {
 .addbot {
     position: absolute;
     bottom: 0;
-    background-color: #6e4cd0;
+    background-color: rgba(110, 76, 208, 1);
     padding: 5px 10px;
-    color: white;
+    color: rgba(255, 255, 255, 1);
     border-radius: 15px;
     border: none;
-    border-bottom: 5px solid #58178d;
+    border-bottom: 5px solid rgba(88, 23, 141, 1);
     right: 0;
     margin-bottom: 10px;
 }
 
-/* Set white background color and 100% height */
 .sidenav {
     font-family: "Karla";
     text-align: center;
-    background-color: #D09F47;
+    background-color: rgba(208, 159, 71, 1);
     height: 100%;
     background-image: url('../imgs/sidebarCoffee.svg');
     background-repeat: no-repeat;
@@ -170,11 +165,10 @@ li.active>a {
     filter: drop-shadow(0 0.5rem 0.5rem rgba(0, 0, 0, 0.5));
 }
 
-
 #whiteblock{
     display:block;
     background-color: #fff;
-    border-bottom-color: #D09F47;
+    border-bottom-color: rgba(208, 159, 71, 1);
     border-bottom-width: 5px;
     height: 250px;
     border-radius: 20px;
@@ -182,8 +176,8 @@ li.active>a {
 
 #bvrgs, #bot, #field {
     display: block;
-    background-color: #fff;
-    border-bottom-color: #D09F47;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom-color: rgba(208, 159, 71, 1);
     border-bottom-width: 5px;
     height: fit-content;
     border-radius: 20px;
@@ -231,30 +225,30 @@ li.active>a {
 .submitbtn, .addbtn {
     display: block;
     background-color: #6e4cd0;
-    color: white;
+    color: rgba(255, 255, 255, 1);
     border-radius: 15px;
     border: none;
-    border-bottom: 5px solid #58178d;
+    border-bottom: 5px solid rgba(88, 23, 141, 1);
     margin-bottom: 10px;
 }
 
 .addbtn1{
     float: right;
-    background-color: #6e4cd0;
-    color: white;
+    background-color: rgba(110, 76, 208, 1);
+    color: rgba(255, 255, 255, 1);
     border-radius: 15px;
     border: none;
-    border-bottom: 5px solid #58178d;
+    border-bottom: 5px solid rgba(88, 23, 141, 1);
     margin-bottom: 10px;
     width: 22% !important;
 }
 
 .resetbtn {
-    background-color: white;
-    color: #444;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(68, 68, 68, 1);
     border-radius: 15px;
-    border: 2px solid #444;
-    border-bottom: 5px solid #444;
+    border: 2px solid rgba(68, 68, 68, 1);
+    border-bottom: 5px solid rgba(68, 68, 68, 1);
 }
 
 input {
@@ -285,24 +279,24 @@ input {
 }
 
 .cancelbtn {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 1);
     display: inline;
-    color: #444;
+    color: rgba(68, 68, 68, 1);
     border-radius: 15px;
-    border: 2px solid #444;
-    border-bottom: 5px solid #444;
+    border: 2px solid rgba(68, 68, 68, 1);
+    border-bottom: 5px solid rgba(68, 68, 68, 1);
     float: right;
     margin-right: 20px;
 }
 
 #weekbutton {
-    background-color: #6e4cd0;
+    background-color: rgba(110, 76, 208, 1);
     width: 70px;
     height: 30px;
-    color: white;
+    color: rgba(255, 255, 255, 1);
     border-radius: 7px;
     border: none;
-    border-bottom: 5px solid #58178d;
+    border-bottom: 5px solid rgba(88, 23, 141, 1);
     margin-top: -8%;
     margin-right: 3%;
     float: right;
@@ -315,27 +309,27 @@ input {
     
 #yellowblock{
     display: block;
-    background-color: #EBC350;
-    border-bottom-color: #D09F47;
+    background-color: rgba(235, 195, 80, 1);
+    border-bottom-color: rgba(208, 159, 71, 1);
     border-bottom-width: 5px;
     height: 250px;
     border-radius: 20px;
 }
     
 #whitetext {
-    color: #fff;
+    color: rgba(255, 255, 255, 1);
     margin-top: 1.5%;
 }
 
 #whitetextconsumed {
-    color: #fff;
+    color: rgba(255, 255, 255, 1);
     margin-top: 2%;
     margin-bottom: 0%;
     font-weight:lighter;
     font-size: 18px;
 }
 .counter-whitetext {
-    color: #fff;
+    color: rgba(255, 255, 255, 1);
     margin-top: 5%;
     margin-bottom: -10px;
     text-align: center;
@@ -346,7 +340,7 @@ input {
 }
 
 #whitetext2{
-    color: #fff;
+    color: rgba(255, 255, 255, 1);
     font-weight:bold;
     font-size: 1.1vw;
     text-align: left;
@@ -354,17 +348,15 @@ input {
 }
 
 .brewtext2{
-    color: #563F30;
+    color: rgba(86, 63, 48, 1);
     font-weight: lighter;
     font-size: 1.1vw;
     margin-top: -1%;  
     text-align: left;
 }
 
- 
-
 .brewtext3{
-    color: #563F30;
+    color: rgba(121, 68, 0, 0.8);
     font-weight: lighter;
     font-size: 1.1vw;
     text-align: left; 
@@ -417,29 +409,23 @@ input {
     height: 12%;
 }
 
-.bot1 {
-    width: 100%;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(110, 76, 208, 0.80)), url('../imgs/gunther.png');
+#bot {
+    width: 100%;    
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.bot1 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(110, 76, 208, 0.80)), url('../imgs/gunther.png');
 }
 
 .bot2 {
-    width: 100%;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(110, 76, 208, 0.80)), url('../imgs/brewbacca.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
 }
 
 .bot3 {
-    width: 100%;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(110, 76, 208, 0.80)), url('../imgs/babyYoda.jpeg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .bottitle {
@@ -464,7 +450,7 @@ h1 {
 }
     
 .nav-stacked li.active a{
-     color: #090088;
+     color: rgba(110, 76, 208, 1);
 }
     
 /* On small screens, set height to 'auto' for the grid */
@@ -515,11 +501,10 @@ h1 {
 
     margin-top:-20px;
     margin-bottom: 0px;
-    background-color:white;
+    background-color:rgba(255, 255, 255, 1);
     display: block;
     position: absolute;
-  }
-  
+}
 
 .canvasjs-chart-credit{
     display:none;
@@ -571,22 +556,21 @@ h1 {
     margin-top: 0%;
 }
 
-
-#cappucino{
+#cappuccino {
     font-size: 1.5vw;
     font-weight: bolder; 
     margin-top: -10px;
-    color: #563F30;
+    color: rgba(86, 63, 48, 1);
 }
 
 .indextext {
     font-size: 0.9vw;
-    color: #563F30;
+    color: rgba(86, 63, 48, 1);
 }
 
 #cups {
     font-size: 1.0vw;
-    color: #563F30;
+    color: rgba(86, 63, 48, 1);
 }
 
 .nav-pills>li>a {
@@ -595,7 +579,7 @@ h1 {
 
 #blocktitle {
     font-size: 1.5vw;
-    color: #563F30;
+    color: rgba(86, 63, 48, 1);
     font-family: 'Rubik', sans-serif;
     font-weight: bolder;
     text-align: left;
@@ -603,7 +587,7 @@ h1 {
 
 .blocktitle2 {
     font-size: 1.5vw;
-    color: #563F30;
+    color: rgba(86, 63, 48, 1);
     font-family: 'Rubik', sans-serif;
     font-weight: bolder;
     margin-left: 10px;
@@ -611,7 +595,7 @@ h1 {
 
 .leadname {
     font-size: 1.5vw;
-    color: #6E47D0;
+    color: rgba(110, 76, 208, 1);
     font-family: 'Rubik', sans-serif;
     font-weight: bolder;
 }
@@ -623,14 +607,14 @@ h1 {
 
 .gibster {
     font-size: 1.1vw;
-    color: #6E47D0;
+    color: rgba(110, 76, 208, 1);
     font-family: 'Rubik', sans-serif;
     font-weight: bolder;
 }
 
 .gibbster {
     font-size: 1.1vw;
-    color: #563F30;
+    color: rgba(86, 63, 48, 1);
     font-family: 'Rubik', sans-serif;
     font-weight: bolder;
     margin-left: 5px;
