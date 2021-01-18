@@ -1,111 +1,114 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Add Bot | CoffeeDick Dashboard</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles/bs-style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script type="text/JavaScript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="styles/style.css">
-        <script type="text/JavaScript" src="scripts/eyes.js" async></script>
-        <script type="text/JavaScript" src="scripts/topnav.js"></script>
-    </head>
 
-    <body>
-        <!--Mobiele navbar-->
-        <nav class="navbar navbar-inverse visible-xs">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>                    
-                    </button>
-                    <a class="navbar-brand" href="index.html">CoffeeDick</a>
-                </div>
-                <div class="collapse navbar-collapse" id="mynavbar">
-                    <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="statistics.html">Statistics</a></li>
-                        <li class="active"><a href="bots.html">Bots</a></li>
-                        <li><a href="beverages.html">Beverages</a></li>
-                    </ul>
-                </div>
+<head>
+    <title>Add Bot | CoffeeDick Dashboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/bs-style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/JavaScript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/JavaScript" src="scripts/eyes.js" async></script>
+    <script type="text/JavaScript" src="scripts/topnav.js"></script>
+</head>
+
+<body>
+    <!--Mobiele navbar-->
+    <nav class="navbar navbar-inverse visible-xs">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">CoffeeDick</a>
             </div>
-        </nav>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="statistics.html">Statistics</a></li>
+                    <li class="active"><a href="bots.html">Bots</a></li>
+                    <li><a href="beverages.html">Beverages</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!--Web navbar -->
-        <div class="container-fluid">
-            <div class="row content">
-                <div class="col-sm-2 sidenav hidden-xs">
+    <div class="container-fluid">
+        <div class="row content">
+            <div class="col-sm-2 sidenav hidden-xs">
                 <h2 class="name">CoffeeDick</h2>
-                        <div class="eyes">
-                            <object type="image/svg+xml" data="imgs/eyes.svg" id="eyes-01"></object>
-                        </div>
-                        <div class="eyes">
-                            <object type="image/svg+xml" data="imgs/eyes.svg" id="eyes-01"></object>
-                        </div>
-                        
-                        <!-- <object type="image/svg+xml" data="imgs/sidebarCoffee.svg"></object> -->
-                        <ul class="nav nav-pills nav-stacked">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="statistics.html">Statistics</a></li>
-                            <hr id="sidebarstreep">
-                            <h4>Customize</h4>
-                            <li><a href="bots.html">Bots</a></li>
-                            <li class="active"><a href="beverages.html">Beverages</a></li>
-                        </ul><br>
+                <div class="eyes">
+                    <object type="image/svg+xml" data="imgs/eyes.svg" id="eyes-01"></object>
                 </div>
-                
-                <br>
-
-        <!--Row 1-->
-
-        <div class="col-sm-10">
-            <div class="pageheader">
-                <div class="pageheadertxt">
-                    <h3>Add Bot</h3>
-                    <p>Give your bot another alter ego.</p>
+                <div class="eyes">
+                    <object type="image/svg+xml" data="imgs/eyes.svg" id="eyes-01"></object>
                 </div>
 
-                <div class="pageheaderballoon" onclick="expand()">
-                    <img style="height:30px;border-radius:50%;" src="imgs/profilepic.jpg">
-                    <div class="balloontxt"><a>Team: TNW &#9660;</a> | <a>Log out</a></div>
-                </div>
+                <!-- <object type="image/svg+xml" data="imgs/sidebarCoffee.svg"></object> -->
+                <ul class="nav nav-pills nav-stacked">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="statistics.html">Statistics</a></li>
+                    <hr id="sidebarstreep">
+                    <h4>Customize</h4>
+                    <li><a href="bots.html">Bots</a></li>
+                    <li class="active"><a href="beverages.html">Beverages</a></li>
+                </ul><br>
             </div>
-            
-            <div class="row">
-                <div class="col-sm-2">
+
+            <br>
+
+            <!--Row 1-->
+
+            <div class="col-sm-10">
+                <div class="pageheader">
+                    <div class="pageheadertxt">
+                        <h3>Add Bot</h3>
+                        <p>Give your bot another alter ego.</p>
+                    </div>
+
+                    <div class="pageheaderballoon" onclick="expand()">
+                        <img style="height:30px;border-radius:50%;" src="imgs/profilepic.jpg">
+                        <div class="balloontxt"><a>Team: TNW &#9660;</a> | <a>Log out</a></div>
+                    </div>
                 </div>
 
-                <div class="col-sm-8">
-                    <div id="field" class="well">
-                        <h3>Avatar</h3>
-                        <div class="avatar">
-                            <div class="imageupload">
-                            <object style="height:120px;" type="image/svg+xml" data="imgs/imageupload.svg"></object>
-                            </div>
-                            <div class="avatarbtns">
-                                <button class="submitbtn" type="submit">upload</button>
-                                <button class="resetbtn" type="reset">Remove</button>
-                            </div>
-                        </div>
+                <div class="row">
+                    <div class="col-sm-2">
+                    </div>
 
-                        <h3>Name of bot</h3>
-                        <input class="nameinput" type="text">
-                        <div class="submitbtns">
-                            <button class="addbtn" type="submit" onclick=location.href='bots.html'>Add bot</button>
-                            <button class="cancelbtn" type="reset" onclick=location.href='bots.html'>Cancel</button>
+                    <div class="col-sm-8">
+                        <div id="field" class="well">
+                            <h3>Avatar</h3>
+                            <div class="avatar">
+                                <div class="imageupload">
+                                    <object style="height:120px;" type="image/svg+xml"
+                                        data="imgs/imageupload.svg"></object>
+                                </div>
+                                <div class="avatarbtns">
+                                    <button class="submitbtn" type="submit">upload</button>
+                                    <button class="resetbtn" type="reset">Remove</button>
+                                </div>
+                            </div>
+
+                            <h3>Name of bot</h3>
+                            <input class="nameinput" type="text">
+                            <div class="submitbtns">
+                                <button class="addbtn" type="submit" onclick=location.href='bots.html'>Add bot</button>
+                                <button class="cancelbtn" type="reset" onclick=location.href='bots.html'>Cancel</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-        <!--Row 2-->  
-    </body>
+        </div>
+    </div>
+</body>
 </html>

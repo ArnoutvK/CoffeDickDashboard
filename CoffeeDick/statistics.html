@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Statistics | CoffeeDick Dashboard</title>
     <meta charset="utf-8">
@@ -13,7 +14,7 @@
     <script type="text/JavaScript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script type="text/JavaScript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
     <script type="text/javascript" src="scripts/chartcontainer.js"></script>
-    <script type="text/JavaScript" src="scripts/counter-whitetext.js"async></script>
+    <script type="text/JavaScript" src="scripts/counter-whitetext.js" async></script>
     <script type="text/JavaScript" src="scripts/eyes.js" async></script>
 </head>
 
@@ -25,7 +26,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>                    
+                    <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.html">CoffeeDick</a>
             </div>
@@ -40,18 +41,18 @@
         </div>
     </nav>
 
-  <!--Web navbar -->
+    <!--Web navbar -->
     <div class="container-fluid">
         <div class="row content">
             <div class="col-sm-2 sidenav hidden-xs">
-            <h2 class="name">CoffeeDick</h2>
+                <h2 class="name">CoffeeDick</h2>
 
-            <div class="eyes">
-                <object type="image/svg+xml" data="imgs/eyes.svg" id="eyes-01"></object>
-            </div>
-            <div class="eyes">
-                <object type="image/svg+xml" data="imgs/eyes.svg" id="eyes-01"></object>
-            </div>
+                <div class="eyes">
+                    <object type="image/svg+xml" data="imgs/eyes.svg" id="eyes-01"></object>
+                </div>
+                <div class="eyes">
+                    <object type="image/svg+xml" data="imgs/eyes.svg" id="eyes-01"></object>
+                </div>
                 <ul class="nav nav-pills nav-stacked">
                     <li><a href="index.html">Home</a></li>
                     <li class="active"><a href="statistics.html">Statistics</a></li>
@@ -61,95 +62,102 @@
                     <li><a href="beverages.html">Beverages</a></li>
                 </ul><br>
             </div>
-        
-            
+
+
             <br>
 
 
 
-        <div class="col-sm-10">
-            <div class="pageheader">
-                <div class="pageheadertxt">
-                    <h3>Statistics</h3>
-                    <p>On this page you can view the statistics of your Team.</p>
+            <div class="col-sm-10">
+                <div class="pageheader">
+                    <div class="pageheadertxt">
+                        <h3>Statistics</h3>
+                        <p>On this page you can view the statistics of your Team.</p>
+                    </div>
+
+                    <div class="pageheaderballoon">
+                        <img style="height:30px;border-radius:50%;" src="imgs/profilepic.jpg">
+                        <div class="balloontxt">
+                            <p>Team: <a>TNW &#9660;</a> | <a>Log out</a></p>
+                        </div>
+                    </div>
                 </div>
-    
-                <div class="pageheaderballoon">
-                    <img style="height:30px;border-radius:50%;" src="imgs/profilepic.jpg">
-                    <div class="balloontxt"><p>Team: <a>TNW &#9660;</a> | <a>Log out</a></p></div>
+
+                <!--Row 1-->
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="well" id="whiteblock">
+                            <div id="chartcontainer2">
+                            </div>
+                            <div id="box">
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-sm-4">
+                        <div class="well" id="whiteblock">
+                            <div id="leaderboard">
+                                <h4 id='leaderboardtitle'>leaderboard</h4>
+                                <button id="weekbutton" type="click">
+                                    <p id="weektext">Week &#11206;</p>
+                                </button>
+
+                                <h5 id='leaderboardsubtitle'>Amount of cups </h5>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <ol>
+                                            <li>Suzan </li>
+                                            <li>Nick </li>
+                                            <li>Estelle </li>
+                                            <li>Rowin </li>
+                                            <li>Arnout </li>
+                                        </ol>
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                        <div class=leadernumbers>
+                                            <ul>
+                                                <li>25</li>
+                                                <li>22</li>
+                                                <li>19</li>
+                                                <li>14</li>
+                                                <li>11</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-        <!--Row 1-->
-        <div class="row">
-            <div class="col-sm-8">
-                <div class="well" id="whiteblock">
-                <div id = "chartcontainer2">
+
+                <!--Row 2-->
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="well" id="yellowblock">
+                            <h4 id="whitetextconsumed">Your team consumed</h4>
+                            <object class="bgbeverage2" type="image/svg+xml"
+                                data="imgs/bvrgs/beverageRegular.svg"></object>
+                            <div class="counter-whitetext">25</div>
+                            <h4 id="whitetextconsumed"><br>liters of coffee this week</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-8">
+                        <div class="well" id="whiteblock">
+                            <h5 id="consumetitle">Coffee consumed this week by team </h5>
+                            <div id="chartcontainer1">
+                            </div>
+                            <div id="box">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div id="box">
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="col-sm-4">
-            <div class="well" id="whiteblock">
-                <div id="leaderboard">
-              <h4 id='leaderboardtitle'>leaderboard</h4>
-              <button id="weekbutton" type="click"><p id="weektext">Week &#11206;</p></button>
-
-              <h5 id='leaderboardsubtitle'>Amount of cups </h5>
-              <div class="row">
-              <div class="col-sm-6">
-              <ol>
-                <li>Suzan </li>
-                <li>Nick </li>
-                <li>Estelle </li>
-                <li>Rowin  </li>
-                <li>Arnout </li>
-              </ol>
-            </div>
-
-            <div class="col-sm-6">
-                <div class = leadernumbers>
-              <ul>
-                <li>25</li>
-                <li>22</li>
-                <li>19</li>
-                <li>14</li>
-                <li>11</li>
-            </div>
-            </ul>
-        </div>
-        </div>
-         
             </div>
         </div>
     </div>
-    </div>
-
-
-<!--Row 2-->
-<div class="row">
-  <div class="col-sm-4">
-      <div class="well"id="yellowblock">
-        <h4 id="whitetextconsumed">Your team consumed</h4>
-        <object class="bgbeverage2" type="image/svg+xml" data="imgs/bvrgs/beverageRegular.svg"></object>
-        <div class = "counter-whitetext">25</div>
-        <h4 id="whitetextconsumed"><br>liters of coffee this week</h4>
-      </div>
-  </div>
-
-  <div class="col-sm-8">
-      <div class="well" id="whiteblock">
-        <h5 id="consumetitle">Coffee consumed this week by team </h5>
-        <div id="chartcontainer1" >
-      </div>
-      <div id="box">
-      </div>
-  </div>
-</div>
-
 </body>
 </html>
