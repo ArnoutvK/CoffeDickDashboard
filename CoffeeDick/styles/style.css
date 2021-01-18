@@ -171,7 +171,7 @@ li.active>a {
 }
 
 
-#witblok{
+#whiteblock{
     display:block;
     background-color: #fff;
     border-bottom-color: #D09F47;
@@ -322,7 +322,7 @@ input {
     border-radius: 20px;
 }
     
-#geelblok{
+#yellowblock{
     display: block;
     background-color: #EBC350;
     border-bottom-color: #D09F47;
@@ -331,12 +331,12 @@ input {
     border-radius: 20px;
 }
     
-#wittetekst {
+#whitetext {
     color: #fff;
     margin-top: 1.5%;
 }
 
-#wittetekstconsumed {
+#whitetextconsumed {
     color: #fff;
     margin-top: 2%;
     margin-bottom: 0%;
@@ -354,7 +354,7 @@ input {
     font-weight: bolder;
 }
 
-#wittetekst2{
+#whitetext2{
     color: #fff;
     font-weight:bold;
     font-size: 1.1vw;
@@ -492,14 +492,13 @@ h1 {
     }
 }
 
-#ogen-01  {
+#eyes-01  {
     display: inline-block;
     text-align: center;
     margin: auto;
-    margin-top: 35vh;
   }
 
-.rounddraai {
+.eyes {
     width: 45px;
     height: 45px;
     display: inline-block;
@@ -508,7 +507,7 @@ h1 {
 }
 
 @media screen and (max-width: 1000px) {
-    .rounddraai {
+    .eyes {
         display: none;
     } .nav>li {
         hyphens: auto;
