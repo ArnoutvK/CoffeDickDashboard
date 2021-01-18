@@ -421,7 +421,7 @@ li a:hover:not(.active) {
   background-color: #111;
 }
 
-#CoffeeDickTitle{
+#coffeedicktitle{
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -1,5 +1,5 @@
 $("body").mousemove(function(event) {
-    var eye = $(".rounddraai");
+    var eye = $(".eyes");
     var x = (eye.offset().left) + (eye.width() / 2);
     var y = (eye.offset().top) + (eye.height() / 2);
     var rad = Math.atan2(event.pageX - x, event.pageY - y);

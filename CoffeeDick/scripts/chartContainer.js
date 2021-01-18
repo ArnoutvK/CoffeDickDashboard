@@ -1,6 +1,6 @@
 window.onload = function () {
  
-    var chart1 = new CanvasJS.Chart("chartContainer1", {
+    var chart1 = new CanvasJS.Chart("chartcontainer1", {
         animationEnabled: true,
         theme: "light2",
       
@@ -25,7 +25,7 @@ window.onload = function () {
 
 
 
-    var chart2 = new CanvasJS.Chart("chartContainer2", {
+    var chart2 = new CanvasJS.Chart("chartcontainer2", {
         animationEnabled: true,
         theme: "light2", // "light1", "light2", "dark1", "dark2",
         axisY: {

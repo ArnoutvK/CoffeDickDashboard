@@ -54,7 +54,7 @@ li.active>a {
     color: white !important;
 }
 
-#myNavbar {
+#mynavbar {
     background-color: white;
 }
 
@@ -205,13 +205,13 @@ li.active>a {
     margin: 20px 0;
 }
 
-.imageUpload {
+.imageupload {
     display: inline-block;
     vertical-align: middle;
     height: 115px;
 }
 
-.imageUpload>img {
+.imageupload>img {
     height: 115px;
     width: 115px;
     border-radius: 20px;
@@ -334,7 +334,7 @@ input {
     font-weight:lighter;
     font-size: 18px;
 }
-.counter-wittetext {
+.counter-whitetext {
     color: #fff;
     margin-top: 5%;
     margin-bottom: -10px;
@@ -454,7 +454,7 @@ h1 {
     font-weight: 900;
 }
     
-#CoffeeDickTitle {
+#coffeedicktitle {
     position: relative;
     margin-left: 0.8%;
     margin-top: 10px;
@@ -499,12 +499,12 @@ h1 {
     }
 }
 
-#chartContainer1 {
+#chartcontainer1 {
     height: 90%; 
     width: 100%;
 }
 
-#chartContainer2 {
+#chartcontainer2 {
     height: 100%; 
     width: 100%;
 }
@@ -525,13 +525,13 @@ h1 {
     display:none;
 }
 
-#Leaderboardtitle{
+#leaderboardtitle{
     margin-left: 7%;
     text-align: left;
     font-weight: bold;
 }
 
-#Leaderboardsubtitle{
+#leaderboardsubtitle{
     margin-left: 7%;
     text-align: left;
     margin-top: -1.5%;
@@ -540,7 +540,7 @@ h1 {
     color:rgba(121, 68, 0, 0.8);
 }
 
-#Leaderboard {
+#leaderboard {
     height: 210px;
     text-align: left; 
     line-height:200%;
