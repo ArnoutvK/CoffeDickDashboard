@@ -13,6 +13,12 @@ body {
     font-family: 'Rubik', 'Karla', sans-serif;
     overflow: hidden;
 }
+    
+h1 {
+    color: #D09F47;
+    text-align: justify;
+    font-weight: 900;
+}
 
 h2.name {
     padding-top: 20px;
@@ -434,12 +440,6 @@ input {
     margin: 0;
 }
     
-h1 {
-    color: #D09F47;
-    text-align: justify;
-    font-weight: 900;
-}
-    
 #coffeedicktitle {
     position: relative;
     margin-left: 0.8%;
@@ -451,13 +451,6 @@ h1 {
     
 .nav-stacked li.active a{
      color: rgba(110, 76, 208, 1);
-}
-    
-/* On small screens, set height to 'auto' for the grid */
-@media screen and (max-width: 767px) {
-    .row.content {
-    height: 100vh;
-    }
 }
 
 #eyes-01  {
@@ -472,6 +465,12 @@ h1 {
     display: inline-block;
     text-align: center;
     margin-top: 270px;
+}
+    
+@media screen and (max-width: 767px) {
+    .row.content {
+    height: 100vh;
+    }
 }
 
 @media screen and (max-width: 1000px) {
