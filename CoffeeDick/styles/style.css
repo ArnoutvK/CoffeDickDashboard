@@ -312,15 +312,6 @@ input {
     text-align: right;
     padding-right: 7%;
 }
-
-#paarsblok { 
-    display:block;
-    background-color: #6e4cd0;
-    border-bottom-color: #58178d;
-    border-bottom-width: 6px;
-    height: 250px;
-    border-radius: 20px;
-}
     
 #yellowblock{
     display: block;
@@ -379,15 +370,6 @@ input {
     text-align: left; 
     margin-left: 30%;
     
-}
-
-.paarsetekst{
-    color: #6E47D0;
-    margin-top: 2%;
-    margin-bottom: 0%;
-    font-weight:lighter;
-    font-size: 17px;
-    text-align: left;
 }
 
 .bgbeverage {
@@ -565,7 +547,7 @@ h1 {
     display: block;
 }
 
-.leadercijfers {
+.leadernumbers {
     list-style-type: none;
     text-align: right;
     font-weight: 600;
