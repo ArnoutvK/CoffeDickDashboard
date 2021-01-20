@@ -45,6 +45,7 @@ a:hover {
 }
 
 .col-sm-10 {
+    overflow: auto;
     padding: 0 50px;
 }
 
@@ -60,6 +61,23 @@ li.active>a {
 
 #mynavbar {
     background-color: rgba(255, 255, 255, 1);
+}
+
+.navbar-brand {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.navbar-inverse, .navbar-collapse {
+    border: none;
+    box-shadow: 0px 2px 8px rgba(68, 68, 68, 0.5);
+}
+
+.navbar-toggle {
+    border: none;
+}
+
+.navbar-toggle:active {
+    background-color:rgba(110, 76, 208, 1);
 }
 
 .row {
@@ -466,23 +484,6 @@ input {
     text-align: center;
     margin-top: 270px;
 }
-    
-@media screen and (max-width: 767px) {
-    .row.content {
-    height: 100vh;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .eyes {
-        display: none;
-    } .nav>li {
-        hyphens: auto;
-    } .nav-stacked {
-        margin: 0;
-        margin-top: 200px;
-    }
-}
 
 #chartcontainer1 {
     height: 90%; 
@@ -640,7 +641,7 @@ input {
 
 .infolink {
     text-align:left;
-    font-size: 0.8vw;
+    font-size: 0.9vw;
     margin-top: 20px;
 }
 
@@ -649,4 +650,32 @@ input {
     color: #563F30;
     font-family: 'Rubik', sans-serif;
     font-weight: bolder;
+}
+    
+@media screen and (max-width: 767px) {
+    .row.content {
+    height: 100vh;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .eyes {
+        display: none;
+    } .nav>li {
+        hyphens: auto;
+    } .nav-stacked {
+        margin: 0;
+        margin-top: 200px;
+    } .col-sm-10 {
+        padding: 0 20px;
+    } .col.sm-2, .col-sm-3, .col-sm-5 {
+        padding: 0 !important;
+        margin: 0 10px !important;
+    } .pageheader {
+        height: 100px;
+    }.pageheadertxt {
+        margin-top: 0;
+    } .indextext {
+        font-size: auto;
+    }
 }
